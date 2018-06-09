@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
+
+
+body {
+	background-color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+* {
+	font-family: 'Open Sans', sans-serif;	
+}
+
+#topo {
+	height: 60px;
+	background-color: #e40203;
+	padding-top: 10px;
+}
+
+#topo img{
+	display: block;
+	margin: 0 auto;	
+}
+
+.img-box {
+	width: 100%;
+}
+
+.img-box img  {
+	display: block;
+	margin: 0 auto;
+}
+
+
+#topo2 {
+	height: 90px;
+	background-color: #e9e9e9;
+}
+
+#topo2 img{
+	display: block;
+	position: relative;
+	left: 12px;
+	top: 12px;
+}
+
+#topo3 {
+	height: 90px;
+	background-color: #e9e9e9;
+}
+
+#topo3 img{
+	display: block;
+	position: relative;
+	left: 12px;
+	top: 12px;
+}
+
+
+.bg-default {
+	
+}
+
+
+.acessar {
+ 	margin-top: -30px; 
+ 	font-size: 20px;
+ 	color: #e40203;
+	text-align: center;
+}
+
+.cliente {
+ 	margin-top: -30px; 
+ 	font-size: 20px;
+ 	color: #e40203;
+	text-align: left;
+}
+
+table {
+	border-collapse:separate;
+    border-spacing:0 5px;	
+}
+
+table.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+
+.pt30{
+	padding-top: 30px;
+}
+
+.pt60{
+	padding-top: 60px;
+}
+
+.pt80{
+	padding-top: 80px;
+}
+
+.pt100{
+	padding-top: 100px;
+}
+
+span{
+	color: #cacaca;
+}
+
+.frm {
+	width: 100%;
+	border: 0px;
+	border-bottom:2px solid #e9e9e9 !important;
+	outline: none;	
+}
+
+.frm:focus{	
+	border-bottom:2px solid #0099cc !important;
+}
+
+#btn-entrar {
+	height: 50px;
+	border: 1px solid #393939;
+	border-radius: 15px;
+    width:50%; 
+    margin-left:25%; 
+    margin-right:25%;
+	background-color: #393939;
+	color: #FFFFFF;
+}
+
+.cliente span{
+	color: #dfe2e6 !important;
+	font-weight: bold;
+	font-size: 20px;
+}

@@ -1,0 +1,2 @@
+var	__BASE_URL__ = "http://www.encontreobb.com.br";
+var __webservice__ = __BASE_URL__  + "/servicos/pesquisarPontosAtendimento";

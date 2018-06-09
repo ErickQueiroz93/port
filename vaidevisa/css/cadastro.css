@@ -1,0 +1,956 @@
+.clearfix:after,.clearfix:before{
+    content:" ";
+    display:table
+}
+.clearfix:after{
+    clear:both
+}
+.center-block{
+    display:block;
+    margin-left:auto;
+    margin-right:auto
+}
+.pull-right{
+    float:right!important
+}
+.pull-left{
+    float:left!important
+}
+.hide{
+    display:none!important
+}
+.show{
+    display:block!important
+}
+.invisible{
+    visibility:hidden
+}
+.text-hide{
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    background-color:transparent;
+    border:0
+}
+.hidden{
+    display:none!important
+}
+.affix{
+    position:fixed
+}
+.font-light{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400
+}
+.font-light strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+.font-light em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+#call-cadastro{
+    padding-top:30%;
+    padding-bottom:50px
+}
+@media (min-width:768px){
+    #call-cadastro{
+        padding-top:10%;
+        padding-bottom:100px
+    }
+}
+#call-cadastro h2{
+    text-align:center;
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    font-size:13px;
+    color:#1d226e;
+    margin:0;
+    padding:0 0 60px;
+    position:relative;
+    background:url(../img/icon-title-cadastro.jpg) center bottom no-repeat
+}
+#call-cadastro h2 strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#call-cadastro h2 em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+#call-cadastro h2 small{
+    color:#1d226e;
+    font-size:20px
+}
+#call-cadastro h2:before{
+    content:'';
+    display:block;
+    height:1px;
+    background-color:#e4e5e6;
+    position:absolute;
+    bottom:1px;
+    left:0;
+    right:0;
+    z-index:-1
+}
+@media (min-width:768px){
+    #call-cadastro h2{
+        margin:0 0 60px;
+        font-size:35px
+    }
+}
+#call-cadastro .itens{
+    padding-left:15px;
+    padding-right:15px;
+    text-align:center;
+    color:#696f73;
+    font-size:16px;
+    line-height:1.5;
+    margin-bottom:20px
+}
+@media (min-width:768px){
+    #call-cadastro .itens{
+        height:370px;
+        margin-bottom:0
+    }
+}
+#call-cadastro .itens .holder{
+    background-color:#eff1f5;
+    border:none;
+    border-bottom:solid 5px #f5b232;
+    height:100%;
+    padding:45px 20px
+}
+@media (min-width:768px){
+    #call-cadastro .itens .holder{
+        padding:30px 10px 0
+    }
+}
+@media (min-width:992px){
+    #call-cadastro .itens .holder{
+        padding:45px 10px 0
+    }
+}
+#call-cadastro .itens .holder img{
+    margin-bottom:20px
+}
+@media (min-width:768px){
+    #call-cadastro .itens .holder img{
+        margin-bottom:20px
+    }
+}
+@media (min-width:992px){
+    #call-cadastro .itens .holder img{
+        margin-bottom:35px
+    }
+}
+#call-cadastro .itens .holder p{
+    font-size:16px;
+    line-height:1.5
+}
+#call-cadastro .itens .holder p strong{
+    font-size:25px;
+    color:#1d226e;
+    font-weight:400;
+    display:block
+}
+#call-cadastro .itens .holder p br{
+    display:none
+}
+@media (min-width:768px){
+    #call-cadastro .itens .holder p{
+        font-size:15px
+    }
+}
+@media (min-width:992px){
+    #call-cadastro .itens .holder p{
+        font-size:15px
+    }
+    #call-cadastro .itens .holder p br{
+        display:inherit
+    }
+}
+@media (min-width:1200px){
+    #call-cadastro .itens .holder p{
+        font-size:16px
+    }
+}
+@media (min-width:768px){
+    #call-cadastro .itens:first-child{
+        padding-left:0
+    }
+    #call-cadastro .itens:last-child{
+        padding-right:0
+    }
+}
+#call-cadastro #holderBtn{
+    margin-bottom:50px;
+    margin: 0 auto;
+}
+#call-cadastro #holderBtn img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 50px;
+}
+#call-cadastro #holderBtn .ExoCheckoutClass{
+    margin-left:auto!important;
+    margin-right:auto!important
+}
+@media (max-width:767px){
+    #call-cadastro #holderBtn .ExoCheckoutClass{
+        width:100%!important
+    }
+}
+#call-cadastro #info-visa-checkout{
+    margin-bottom:60px
+}
+#call-cadastro #info-visa-checkout h4{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    font-size:20px;
+    line-height:1.5;
+    color:#0c41a5;
+    text-align:center;
+    letter-spacing:-1px;
+    margin-top:20px;
+    margin-bottom:20px
+}
+#call-cadastro #info-visa-checkout h4 strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#call-cadastro #info-visa-checkout h4 em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+#call-cadastro #info-visa-checkout p{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    font-size:20px;
+    line-height:1.5;
+    color:#828282;
+    text-align:center;
+    letter-spacing:-1px
+}
+#call-cadastro #info-visa-checkout p strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#call-cadastro #info-visa-checkout p em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+#call-cadastro #info-cadeado{
+    text-align:right;
+    margin-top:45px
+}
+@media (max-width:767px){
+    #call-cadastro #info-cadeado{
+        padding-left:15px;
+        padding-right:15px
+    }
+}
+#call-cadastro #info-cadeado p{
+    float:right!important;
+    padding:4px;
+    font-size:14px;
+    line-height:1.5;
+    color:#a5a5a5;
+    margin-bottom:0
+}
+@media (min-width:768px){
+    #call-cadastro #info-cadeado p{
+        padding-top:18px;
+        font-size:16px
+    }
+}
+#call-cadastro #info-cadeado img{
+    float:right!important;
+    margin-left:20px
+}
+#nova-senha{
+    padding-top:30px;
+    padding-bottom:50px
+}
+@media (min-width:768px){
+    #nova-senha{
+        padding-top:75px;
+        padding-bottom:100px
+    }
+}
+#nova-senha h2{
+    text-align:center;
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    font-size:30px;
+    color:#1d226e;
+    margin:0 0 20px
+}
+#nova-senha h2 strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#nova-senha h2 em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+@media (min-width:768px){
+    #nova-senha h2{
+        font-size:35px;
+        line-height:1.3
+    }
+}
+#nova-senha h3{
+    text-align:center;
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    color:#1d226e;
+    font-size:25px;
+    line-height:30px;
+    margin:0 0 30px
+}
+#nova-senha h3 strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#nova-senha h3 em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+@media (max-width:767px){
+    #nova-senha h3 br{
+        display:none
+    }
+}
+#nova-senha img{
+    margin-bottom:35px
+}
+#nova-senha .info-cad{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    text-align:center;
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:-1px;
+    color:#828282;
+    margin-bottom:130px
+}
+#nova-senha .info-cad strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#nova-senha .info-cad em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+#nova-senha .info-cad br{
+    display:none
+}
+@media (min-width:768px){
+    #nova-senha .info-cad{
+        font-size:15px;
+        margin-bottom:40px
+    }
+    #nova-senha .info-cad br{
+        display:inherit
+    }
+}
+@media (min-width:992px){
+    #nova-senha .info-cad{
+        font-size:20px
+    }
+}
+#nova-senha .info-cad-2{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    text-align:center;
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:-1px;
+    color:#828282;
+    margin-bottom:30px
+}
+#nova-senha .info-cad-2 strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#nova-senha .info-cad-2 em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+#nova-senha .info-cad-2 br{
+    display:none
+}
+@media (min-width:768px){
+    #nova-senha .info-cad-2{
+        font-size:15px;
+        margin-bottom:40px
+    }
+    #nova-senha .info-cad-2 br{
+        display:inherit
+    }
+}
+@media (min-width:992px){
+    #nova-senha .info-cad-2{
+        font-size:20px
+    }
+}
+#nova-senha .info-block{
+    height:175px;
+    background-color:#eff1f5;
+    border-bottom:solid 4px #f4bb34;
+    margin-top:0;
+    margin-bottom:50px;
+    padding-top:30px
+}
+@media (max-width:767px){
+    #nova-senha .info-block{
+        padding-left:5px;
+        padding-right:5px;
+        margin:0 15px 10px
+    }
+}
+@media (min-width:768px){
+    #nova-senha .info-block:first-child{
+        margin-right:15px
+    }
+    #nova-senha .info-block:last-child{
+        margin-left:15px
+    }
+}
+#nova-senha .info-block.small{
+    height:auto;
+    padding-bottom:30px
+}
+#nova-senha .info-block p{
+    font-size:16px;
+    line-height:24px;
+    color:#696f73;
+    margin-bottom:0;
+    text-align:center
+}
+#nova-senha .info-block p strong{
+    display:block;
+    color:#1d226e;
+    font-size:25px;
+    line-height:20px;
+    font-weight:400
+}
+@media (max-width:767px){
+    #nova-senha .info-block p br{
+        display:none
+    }
+}
+#nova-senha #info-cadeado{
+    text-align:right;
+    margin-top:45px
+}
+@media (max-width:767px){
+    #nova-senha #info-cadeado{
+        padding-left:15px;
+        padding-right:15px
+    }
+}
+#nova-senha #info-cadeado p{
+    float:right!important;
+    padding:4px;
+    font-size:14px;
+    line-height:1.5;
+    color:#a5a5a5;
+    margin-bottom:0
+}
+@media (min-width:768px){
+    #nova-senha #info-cadeado p{
+        padding-top:18px;
+        font-size:16px
+    }
+}
+#nova-senha #info-cadeado img{
+    float:right!important;
+    margin-left:20px
+}
+#nova-senha .form-control{
+    border:1px solid #d9d9d9;
+    padding:13px 10px;
+    font-size:16px;
+    height:auto;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    color:#1d226e
+}
+#nova-senha .form-control:focus{
+    border-color:#d9d9d9;
+    -webkit-box-shadow:none;
+    box-shadow:none
+}
+#nova-senha .form-control[disabled],#nova-senha .form-control[readonly]{
+    background-color:#fff;
+    color:rgba(29,34,110,.4)
+}
+#nova-senha .form-group.readonly{
+    position:relative
+}
+#nova-senha .form-group.readonly label{
+    opacity:.4;
+    filter:alpha(opacity=40)
+}
+#nova-senha .form-group.readonly:before{
+    content:'';
+    display:block;
+    width:15px;
+    height:20px;
+    background:url(../img/icon-cadeado-senha.gif) center no-repeat;
+    position:absolute;
+    top:50%;
+    right:-30px
+}
+#nova-senha .relative{
+    position:relative
+}
+#nova-senha .relative .info{
+    position:absolute;
+    font-size:14px;
+    border-top:solid 2px #f6b32f;
+    padding-top:10px;
+    width:80%
+}
+@media (max-width:767px){
+    #nova-senha .relative .info{
+        top:-100px;
+        right:0;
+        text-align:right
+    }
+}
+@media (min-width:768px){
+    #nova-senha .relative .info{
+        top:200px;
+        left:0;
+        width:60%
+    }
+}
+#nova-senha .relative .info br{
+    display:none
+}
+@media (max-width:767px){
+    #nova-senha .relative .info p{
+        line-height:1
+    }
+}
+@media (min-width:768px){
+    #nova-senha .relative .info{
+        top:0;
+        left:-30px;
+        padding-top:0;
+        padding-right:10px;
+        text-align:right;
+        font-size:14px;
+        line-height:1.2;
+        border-top:none;
+        border-right:solid 2px #f6b32f;
+        -webkit-transform:translate(-100%,0);
+        -ms-transform:translate(-100%,0);
+        -o-transform:translate(-100%,0);
+        transform:translate(-100%,0)
+    }
+    #nova-senha .relative .info br{
+        display:inherit
+    }
+}
+#nova-senha .relative .info .level{
+    color:#1d226e
+}
+#nova-senha .relative .info .level span{
+    width:10px;
+    height:6px;
+    display:inline-block;
+    background-color:#d2d4d5
+}
+#nova-senha .relative .info .level.level-1 span:nth-child(1){
+    background-color:#ea4c4c
+}
+#nova-senha .relative .info .level.level-2 span:nth-child(1),#nova-senha .relative .info .level.level-2 span:nth-child(2){
+    background-color:#7abce5
+}
+#nova-senha .relative .info .level.level-3 span{
+    background-color:#84cb7f
+}
+#nova-senha .div-termos{
+    min-height:30px
+}
+#nova-senha [type=radio]:checked,#nova-senha [type=radio]:not(:checked),#nova-senha [type=checkbox]:checked,#nova-senha [type=checkbox]:not(:checked){
+    position:absolute;
+    left:-9999px
+}
+#nova-senha [type=radio]:checked~label,#nova-senha [type=radio]:not(:checked)~label,#nova-senha [type=checkbox]:checked~label,#nova-senha [type=checkbox]:not(:checked)~label{
+    position:relative;
+    cursor:pointer;
+    display:block;
+    margin-bottom:10px;
+    text-transform:none;
+    font-size:14px;
+    color:#828282;
+    margin-top:15px
+}
+#nova-senha [type=radio]:checked~label a,#nova-senha [type=radio]:not(:checked)~label a,#nova-senha [type=checkbox]:checked~label a,#nova-senha [type=checkbox]:not(:checked)~label a{
+    text-decoration:underline
+}
+@media (min-width:768px){
+    #nova-senha [type=radio]:checked~label,#nova-senha [type=radio]:not(:checked)~label,#nova-senha [type=checkbox]:checked~label,#nova-senha [type=checkbox]:not(:checked)~label{
+        font-size:15px
+    }
+}
+#nova-senha [type=radio]:checked.input-validation-error~label:before,#nova-senha [type=radio]:not(:checked).input-validation-error~label:before,#nova-senha [type=checkbox]:checked.input-validation-error~label:before,#nova-senha [type=checkbox]:not(:checked).input-validation-error~label:before{
+    border-color:red
+}
+#nova-senha [type=radio]:not(:checked)~label:after,#nova-senha [type=checkbox]:not(:checked)~label:after{
+    opacity:0;
+    transform:scale(0)
+}
+#nova-senha [type=radio]:checked~label:after,#nova-senha [type=checkbox]:checked~label:after{
+    opacity:1;
+    transform:scale(1)
+}
+#nova-senha [type=radio]:disabled:checked~label:before,#nova-senha [type=radio]:disabled:not(:checked)~label:before,#nova-senha [type=checkbox]:disabled:checked~label:before,#nova-senha [type=checkbox]:disabled:not(:checked)~label:before{
+    box-shadow:none;
+    border-color:#bbb;
+    background-color:#ddd
+}
+#nova-senha [type=radio]:disabled:checked~label:after,#nova-senha [type=checkbox]:disabled:checked~label:after{
+    color:#999
+}
+#nova-senha [type=radio]:disabled~label,#nova-senha [type=checkbox]:disabled~label{
+    color:#aaa
+}
+#nova-senha [type=radio]:checked~label,#nova-senha [type=radio]:not(:checked)~label{
+    line-height:30px;
+    padding-left:40px
+}
+@media (min-width:768px){
+    #nova-senha [type=radio]:checked~label,#nova-senha [type=radio]:not(:checked)~label{
+        padding-left:25px;
+        line-height:20px
+    }
+}
+@media (min-width:992px){
+    #nova-senha [type=radio]:checked~label,#nova-senha [type=radio]:not(:checked)~label{
+        padding-left:40px;
+        line-height:30px
+    }
+}
+#nova-senha [type=radio]:checked~label:before,#nova-senha [type=radio]:not(:checked)~label:before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    border:1px solid #d9d9d9;
+    background:#fff
+}
+@media (min-width:768px){
+    #nova-senha [type=radio]:checked~label:before,#nova-senha [type=radio]:not(:checked)~label:before{
+        width:20px;
+        height:20px
+    }
+}
+@media (min-width:992px){
+    #nova-senha [type=radio]:checked~label:before,#nova-senha [type=radio]:not(:checked)~label:before{
+        width:30px;
+        height:30px
+    }
+}
+#nova-senha [type=radio]:checked~label:after,#nova-senha [type=radio]:not(:checked)~label:after{
+    content:'';
+    width:10px;
+    height:10px;
+    display:block;
+    border-radius:50%;
+    background-color:#1d226e;
+    position:absolute;
+    top:10px;
+    left:10px
+}
+@media (min-width:768px){
+    #nova-senha [type=radio]:checked~label:after,#nova-senha [type=radio]:not(:checked)~label:after{
+        width:7px;
+        height:7px;
+        top:7px;
+        left:7px
+    }
+}
+@media (min-width:992px){
+    #nova-senha [type=radio]:checked~label:after,#nova-senha [type=radio]:not(:checked)~label:after{
+        width:10px;
+        height:10px;
+        top:10px;
+        left:10px
+    }
+}
+#nova-senha [type=checkbox]:checked~label,#nova-senha [type=checkbox]:not(:checked)~label{
+    line-height:1.2;
+    letter-spacing:-1px;
+    margin-top:25px;
+    padding-left:40px
+}
+#nova-senha [type=checkbox]:checked~label:before,#nova-senha [type=checkbox]:not(:checked)~label:before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:30px;
+    height:30px;
+    border-radius:3px;
+    border:1px solid #d9d9d9;
+    background:#fff
+}
+#nova-senha [type=checkbox]:checked~label:after,#nova-senha [type=checkbox]:not(:checked)~label:after{
+    content:'';
+    width:21px;
+    height:16px;
+    display:block;
+    background:url(../img/icon-checkbox.gif) center no-repeat;
+    position:absolute;
+    top:7px;
+    left:5px
+}
+#nova-senha label{
+    font-weight:400
+}
+#nova-senha .btn-default{
+    color:#fff;
+    background-color:#0c41a5;
+    border-color:#0c41a5;
+    text-transform:uppercase;
+    font-size:15px;
+    line-height:1;
+    padding:16px 12px;
+    margin-top:20px
+}
+#nova-senha .btn-default.focus,#nova-senha .btn-default:focus{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#03122e
+}
+#nova-senha .btn-default.active,#nova-senha .btn-default:active,#nova-senha .btn-default:hover,.open>.dropdown-toggle#nova-senha .btn-default{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#082b6c
+}
+#nova-senha .btn-default.active.focus,#nova-senha .btn-default.active:focus,#nova-senha .btn-default.active:hover,#nova-senha .btn-default:active.focus,#nova-senha .btn-default:active:focus,#nova-senha .btn-default:active:hover,.open>.dropdown-toggle#nova-senha .btn-default.focus,.open>.dropdown-toggle#nova-senha .btn-default:focus,.open>.dropdown-toggle#nova-senha .btn-default:hover{
+    color:#fff;
+    background-color:#062154;
+    border-color:#03122e
+}
+#nova-senha .btn-default.active,#nova-senha .btn-default:active,.open>.dropdown-toggle#nova-senha .btn-default{
+    background-image:none
+}
+#nova-senha .btn-default.disabled,#nova-senha .btn-default.disabled.active,#nova-senha .btn-default.disabled.focus,#nova-senha .btn-default.disabled:active,#nova-senha .btn-default.disabled:focus,#nova-senha .btn-default.disabled:hover,#nova-senha .btn-default[disabled],#nova-senha .btn-default[disabled].active,#nova-senha .btn-default[disabled].focus,#nova-senha .btn-default[disabled]:active,#nova-senha .btn-default[disabled]:focus,#nova-senha .btn-default[disabled]:hover,fieldset[disabled] #nova-senha .btn-default,fieldset[disabled] #nova-senha .btn-default.active,fieldset[disabled] #nova-senha .btn-default.focus,fieldset[disabled] #nova-senha .btn-default:active,fieldset[disabled] #nova-senha .btn-default:focus,fieldset[disabled] #nova-senha .btn-default:hover{
+    background-color:#0c41a5;
+    border-color:#0c41a5
+}
+#nova-senha .btn-default .badge{
+    color:#0c41a5;
+    background-color:#fff
+}
+@media (min-width:768px){
+    #nova-senha .btn-default{
+        margin-top:60px
+    }
+}
+#nova-senha .btn-default.btn-continuar{
+    margin-top:0
+}
+#nova-senha .text-danger{
+    color:#d4413e;
+    position:relative;
+    padding:0 20px;
+    line-height:22px;
+    display:block
+}
+#nova-senha .info-sucess{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    color:#1d226e;
+    font-size:35px;
+    line-height:1;
+    text-align:center;
+    padding-top:130px;
+    margin-top:45px;
+    margin-bottom:55px;
+    background:url(../img/icon-dados-sucesso.jpg) center top no-repeat
+}
+#nova-senha .info-sucess strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#nova-senha .info-sucess em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+#nova-senha #lost-password{
+    text-align:right;
+    font-size:15px;
+    margin:30px 0
+}
+#nova-senha #lost-password a{
+    color:#666
+}
+@media (max-width:767px){
+    #modal-samsung{
+        width:320px;
+        left:50%;
+        transform:translateX(-50%)
+    }
+}
+#modal-samsung .modal-dialog{
+    width:300px
+}
+@media (min-width:768px){
+    #modal-samsung .modal-dialog{
+        width:700px
+    }
+}
+@media (min-width:992px){
+    #modal-samsung .modal-dialog{
+        width:800px
+    }
+}
+#modal-samsung .modal-content{
+    height:0;
+    padding-top:74%;
+    background-image:url(../img/litghbox-oferta-samsung-bg.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover
+}
+@media (min-width:768px){
+    #modal-samsung .modal-content{
+        height:470px;
+        padding-top:0
+    }
+}
+#modal-samsung .modal-body{
+    padding:0
+}
+@media (max-width:767px){
+    #modal-samsung .modal-body{
+        position:absolute;
+        top:0;
+        left:0;
+        right:0
+    }
+}
+#modal-samsung .modal-body p{
+    text-align:left;
+    color:#fff;
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    font-size:14px;
+    line-height:1.2;
+    padding-top:70px;
+    margin-left:20px
+}
+#modal-samsung .modal-body p strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#modal-samsung .modal-body p em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+@media (min-width:768px){
+    #modal-samsung .modal-body p{
+        font-size:28px;
+        padding-top:165px;
+        margin-left:40px
+    }
+}
+#modal-samsung .modal-body .btn-primary{
+    color:#fff;
+    background-color:#0c41a5;
+    border-color:#0c41a5;
+    margin-top:30px
+}
+#modal-samsung .modal-body .btn-primary.focus,#modal-samsung .modal-body .btn-primary:focus{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#03122e
+}
+#modal-samsung .modal-body .btn-primary.active,#modal-samsung .modal-body .btn-primary:active,#modal-samsung .modal-body .btn-primary:hover,.open>.dropdown-toggle#modal-samsung .modal-body .btn-primary{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#082b6c
+}
+#modal-samsung .modal-body .btn-primary.active.focus,#modal-samsung .modal-body .btn-primary.active:focus,#modal-samsung .modal-body .btn-primary.active:hover,#modal-samsung .modal-body .btn-primary:active.focus,#modal-samsung .modal-body .btn-primary:active:focus,#modal-samsung .modal-body .btn-primary:active:hover,.open>.dropdown-toggle#modal-samsung .modal-body .btn-primary.focus,.open>.dropdown-toggle#modal-samsung .modal-body .btn-primary:focus,.open>.dropdown-toggle#modal-samsung .modal-body .btn-primary:hover{
+    color:#fff;
+    background-color:#062154;
+    border-color:#03122e
+}
+#modal-samsung .modal-body .btn-primary.active,#modal-samsung .modal-body .btn-primary:active,.open>.dropdown-toggle#modal-samsung .modal-body .btn-primary{
+    background-image:none
+}
+#modal-samsung .modal-body .btn-primary.disabled,#modal-samsung .modal-body .btn-primary.disabled.active,#modal-samsung .modal-body .btn-primary.disabled.focus,#modal-samsung .modal-body .btn-primary.disabled:active,#modal-samsung .modal-body .btn-primary.disabled:focus,#modal-samsung .modal-body .btn-primary.disabled:hover,#modal-samsung .modal-body .btn-primary[disabled],#modal-samsung .modal-body .btn-primary[disabled].active,#modal-samsung .modal-body .btn-primary[disabled].focus,#modal-samsung .modal-body .btn-primary[disabled]:active,#modal-samsung .modal-body .btn-primary[disabled]:focus,#modal-samsung .modal-body .btn-primary[disabled]:hover,fieldset[disabled] #modal-samsung .modal-body .btn-primary,fieldset[disabled] #modal-samsung .modal-body .btn-primary.active,fieldset[disabled] #modal-samsung .modal-body .btn-primary.focus,fieldset[disabled] #modal-samsung .modal-body .btn-primary:active,fieldset[disabled] #modal-samsung .modal-body .btn-primary:focus,fieldset[disabled] #modal-samsung .modal-body .btn-primary:hover{
+    background-color:#0c41a5;
+    border-color:#0c41a5
+}
+#modal-samsung .modal-body .btn-primary .badge{
+    color:#0c41a5;
+    background-color:#fff
+}
+@media (min-width:768px){
+    #modal-samsung .modal-body .btn-primary{
+        padding:16px;
+        font-size:15px;
+        line-height:1;
+        border-radius:4px;
+        width:285px;
+        margin-top:85px
+    }
+}
+#modal-samsung button.close{
+    width:30px;
+    height:30px;
+    background:url(../img/litghbox-oferta-samsung-btn-close.png) no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    opacity:1;
+    filter:alpha(opacity=100);
+    margin-top:10px;
+    margin-right:10px
+}
+#modal-samsung button.close span{
+    display:none
+}
+@media (min-width:992px){
+    #modal-samsung button.close{
+        width:35px;
+        height:35px;
+        margin-top:20px;
+        margin-right:20px
+    }
+}
+@media (min-width:992px){
+    #modal-samsung button.close{
+        width:50px;
+        height:50px;
+        margin-top:40px;
+        margin-right:40px
+    }
+}
+
+.modal-body{
+	padding: 0;
+}
+header.header.rxo-header.blue {
+    background-color: #15195a;
+    background-image: none;
+    height: 50px;
+    padding: 10px;
+}

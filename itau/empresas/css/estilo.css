@@ -1,0 +1,197 @@
+#tela3 {
+    background: rgba(230, 136, 40, 1.8);
+}
+.tela-grande {
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+}
+#logo {
+    text-align: center;
+    margin-top: 17%;
+}
+#logo-empresa{
+    display: none;
+}
+#tela1 {
+    background: rgba(230, 136, 40, 1.8);
+}
+/*#tela1 .container{
+  padding-right: 0
+}*/
+.conteudo {
+    display: none;
+}
+.rodape {
+    display: none;
+}
+@media (max-width: 600px) {
+
+    /*input*/
+    h1,
+    input::-webkit-input-placeholder,
+    button {
+        font-family: 'roboto', sans-serif;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    input[type="tel"], [type="password"]{
+        border: none;
+        padding-bottom: 3%;
+        margin-bottom: 6%;
+        border-bottom: solid 1px #807875;
+        background: transparent;
+        color: #000;
+        transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+        -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+        float: left;
+        width: 100%;
+    }
+    ::-webkit-input-placeholder {
+        color: #807875;
+    }
+    :-moz-placeholder {
+        /* Firefox 18- */
+        
+        color: #807875;
+    }
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        
+        color: #807875;
+    }
+    :-ms-input-placeholder {
+        color: #807875;
+    }
+    input:focus,
+    input:valid {
+        box-shadow: none;
+        outline: none;
+        background-position: 0 0;
+    }
+    input:focus::-webkit-input-placeholder,
+    input:valid::-webkit-input-placeholder {
+        color: #807875;
+        font-size: 11px;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+        visibility: visible !important;
+    }
+    input[type="submit"] {
+        width: 275px;
+        border: 1px solid #1D4771;
+        border-radius: 8px;
+        padding: 0;
+        margin: 0;
+        height: 50px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background: #1D4771;
+        color: #fff;
+        font-weight: bold;
+        background-image: url('../img/cadeado.png');
+        background-repeat: no-repeat;
+        background-position: 71px 12px;
+        background-size: 8%;
+    }
+    /*Fim Input*/
+
+    /*home*/
+    #tela1{
+        background: transparent;
+    }
+    #tela1 #logo {
+        text-align: left;
+        margin-left: 7%;
+        float: left;
+    }
+    #tela1 #logo img{
+        width: 55px !important;
+    }
+    #tela1 #logo-empresa {
+        display: block;
+        text-align: right;
+        margin-right: 7%;
+        margin-top: 17%;
+        float: right;
+    }
+    .tela-grande {
+        display: none;
+    }
+    .conteudo {
+        display: block;
+        width: 100%;
+        padding-left: 10%;
+    }
+    #tela1 {
+        background-image: url('../img/fundo.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    /*Fim home*/
+    
+    /*home2*/
+
+    /*Fim home2*/
+
+    /*Rodape*/
+    .rodape{
+        display: block;
+        width: 100%;
+        margin-top: 65%;
+    }
+    /*Fim Rodape*/
+
+    /*tela fim*/
+    .mensagem-sucesso{
+        text-align: center;
+    }
+    .mensagem-sucesso h2 {
+        color: #807875;
+        font-size: 20px;
+        margin-top: 35%;
+        font-weight: bold;
+    }
+    .mensagem-sucesso p {
+        color: #807875;
+        margin-top: 8%;
+    }
+}
+@media (max-width: 280px) {
+    .conteudo{
+        overflow: hidden;
+    }
+    #tela1 #logo{
+        margin-left: 0;
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
+    #tela1 #logo-empresa{
+        margin-top: 5%;
+        margin-bottom: 0; 
+    }
+    #tela1 #logo img {
+        width: 40px !important;
+    }
+    #tela1 #logo-empresa img {
+        width: 100px !important;
+    }
+    input[type="submit"]{
+        width: 160px;
+        height: 35px;
+        background-position: 23px 6px;
+        background-size: 13%;
+        font-size: 15px;
+    }
+    input[type="tel"], [type="password"]{
+        width: 90%;
+    }
+    .mensagem-sucesso h2{
+        margin-top: 10%;
+    }
+
+}
+div a img
+{
+  display: none;
+}

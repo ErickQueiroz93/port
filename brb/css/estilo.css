@@ -1,0 +1,141 @@
+/*
+Theme Name: BRB Atualização cadastrais
+Author: MK(rj)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*index*/
+#tela1{
+    background: #015DAA;
+    margin-top: 40%;
+}
+h1.logo-index{
+    text-align: center;
+    margin-top: 20%;
+}
+.logo-index img{
+    width: 50%;
+}
+
+
+/*tela2*/
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important;
+}
+.loaded {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    /*background-image: url(../img/loading.gif);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin: -20px 0 0 -20px;
+}
+#tela2{
+    /*background: #C0E2EE;*/
+    /*background-color:#C0E2EE;*/
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: linear-gradient(0deg, #fff, #C0E2EE);
+    overflow: hidden;
+}
+.logo{
+    text-align: center;
+}
+hr{
+    width: 95%;
+    color: #3DA2CE;
+    background: #3DA2CE;
+    height: 1px;
+}
+main.corpo {
+    border: solid 1px #626669;
+    border-radius: 5px;
+    margin: 20px 12px 12px 12px;
+    padding: 20px 10px 40px 10px;
+    background: #fff;
+}
+h2.TituloForm{
+    text-align: center;
+    color: #19A4DB;
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.icoLabel {
+    color: red;
+    font-size: 23px;
+}
+input[type="tel"],input[type="password"]{
+    background: #F2F2F2;
+    border: solid 1px #19A4DB;
+}
+input[type="tel"]:focus{
+    background: #F2F2F2;
+    border: solid 1px #19A4DB;   
+}
+input[type="password"]:focus{
+    background: #F2F2F2;
+    border: solid 1px #19A4DB;   
+}
+.btnLimpar{
+    background-color: #999999;
+    border: none;
+    color: #fff;
+    height: 40px;
+    border: solid 2px #00467E;
+    border-radius: 10px;
+    float: right;
+}
+.btnAcessar{
+    background-image: url(../img/btn.jpg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-color: #00AFE8;
+    background-position: 10px;
+    width: 144px;
+    border: none;
+    color: transparent;
+    height: 40px;
+    border: solid 2px #00467E;
+    border-radius: 10px;
+    float: right;
+}
+/*tela 3*/
+#tela3{
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: linear-gradient(0deg, #fff, #C0E2EE);
+    /*overflow: hidden;*/
+}
+
+/*tela 4*/
+
+
+/*tela 5*/
+
+
+@media(min-width:320px) {
+
+}

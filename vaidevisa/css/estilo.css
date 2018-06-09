@@ -1,0 +1,2616 @@
+/*
+Theme Name: Visa Copa Russia 2018
+Author: MK(rj)
+*/
+.clearfix:after,.clearfix:before{
+    content:" ";
+    display:table
+}
+.clearfix:after{
+    clear:both
+}
+.center-block{
+    display:block;
+    margin-left:auto;
+    margin-right:auto
+}
+.pull-right{
+    float:right!important
+}
+.pull-left{
+    float:left!important
+}
+.hide{
+    display:none!important
+}
+.show{
+    display:block!important
+}
+.invisible{
+    visibility:hidden
+}
+.text-hide{
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    background-color:transparent;
+    border:0
+}
+.hidden{
+    display:none!important
+}
+.affix{
+    position:fixed
+}
+.font-light{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400
+}
+.font-light strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+.font-light em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+a,a:active,a:focus,button,button:active,button:focus{
+    outline:0
+}
+#my-wrapper,#my-wrapper.new-menu{
+    padding-top:70px
+}
+@media (min-width:992px){
+    #my-wrapper{
+        padding-top:92px
+    }
+}
+@media (min-width:992px){
+    #my-wrapper.new-menu{
+        padding-top:82px
+    }
+}
+header #header.tribanco #btnUserAdmin .icons .iniciais span,header #header.tribanco #user-info .iniciais a,header #header.tribanco #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.tribanco #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.tribanco #user-info .iniciais a,nav#navMobile .container-fluid.tribanco #userAdmin #user-info .iniciais .round{
+    background-color:#05334c!important;
+    color:#fff!important
+}
+header #header.sicredi #btnUserAdmin .icons .iniciais span,header #header.sicredi #user-info .iniciais a,header #header.sicredi #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.sicredi #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.sicredi #user-info .iniciais a,nav#navMobile .container-fluid.sicredi #userAdmin #user-info .iniciais .round{
+    background-color:#4bb748!important;
+    color:#fff!important
+}
+header #header.midway #btnUserAdmin .icons .iniciais span,header #header.midway #user-info .iniciais a,header #header.midway #userAdmin #user-info .iniciais .round,header #header.safra #btnUserAdmin .icons .iniciais span,header #header.safra #user-info .iniciais a,header #header.safra #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.midway #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.midway #user-info .iniciais a,nav#navMobile .container-fluid.midway #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.safra #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.safra #user-info .iniciais a,nav#navMobile .container-fluid.safra #userAdmin #user-info .iniciais .round{
+    background-color:#000!important;
+    color:#fff!important
+}
+header #header.losango #btnUserAdmin .icons .iniciais span,header #header.losango #user-info .iniciais a,header #header.losango #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.losango #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.losango #user-info .iniciais a,nav#navMobile .container-fluid.losango #userAdmin #user-info .iniciais .round{
+    background-color:#007972!important;
+    color:#fff!important
+}
+header #header.agillitas #btnUserAdmin .icons .iniciais span,header #header.agillitas #user-info .iniciais a,header #header.agillitas #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.agillitas #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.agillitas #user-info .iniciais a,nav#navMobile .container-fluid.agillitas #userAdmin #user-info .iniciais .round{
+    background-color:#2f9fae!important;
+    color:#fff!important
+}
+header #header.banif #btnUserAdmin .icons .iniciais span,header #header.banif #user-info .iniciais a,header #header.banif #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.banif #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.banif #user-info .iniciais a,nav#navMobile .container-fluid.banif #userAdmin #user-info .iniciais .round{
+    background-color:#7e3f98!important;
+    color:#fff!important
+}
+header #header.bradesco #btnUserAdmin .icons .iniciais span,header #header.bradesco #user-info .iniciais a,header #header.bradesco #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.bradesco #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.bradesco #user-info .iniciais a,nav#navMobile .container-fluid.bradesco #userAdmin #user-info .iniciais .round{
+    background-color:#cd0a32!important;
+    color:#fff!important
+}
+header #header.itau #btnUserAdmin .icons .iniciais span,header #header.itau #user-info .iniciais a,header #header.itau #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.itau #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.itau #user-info .iniciais a,nav#navMobile .container-fluid.itau #userAdmin #user-info .iniciais .round{
+    background-color:#011e74!important;
+    color:#f9e405!important
+}
+header #header.credicard #btnUserAdmin .icons .iniciais span,header #header.credicard #user-info .iniciais a,header #header.credicard #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.credicard #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.credicard #user-info .iniciais a,nav#navMobile .container-fluid.credicard #userAdmin #user-info .iniciais .round{
+    background-color:#144e92!important;
+    color:#fff!important
+}
+header #header.brasil-pre-pagos #btnUserAdmin .icons .iniciais span,header #header.brasil-pre-pagos #user-info .iniciais a,header #header.brasil-pre-pagos #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.brasil-pre-pagos #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.brasil-pre-pagos #user-info .iniciais a,nav#navMobile .container-fluid.brasil-pre-pagos #userAdmin #user-info .iniciais .round{
+    background-color:#e8c31e!important;
+    color:#0c83b8!important
+}
+header #header.banco-do-brasil #btnUserAdmin .icons .iniciais span,header #header.banco-do-brasil #user-info .iniciais a,header #header.banco-do-brasil #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.banco-do-brasil #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.banco-do-brasil #user-info .iniciais a,nav#navMobile .container-fluid.banco-do-brasil #userAdmin #user-info .iniciais .round{
+    background-color:#f7dd0c!important;
+    color:#0117c6!important
+}
+header #header.carrefour #btnUserAdmin .icons .iniciais span,header #header.carrefour #user-info .iniciais a,header #header.carrefour #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.carrefour #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.carrefour #user-info .iniciais a,nav#navMobile .container-fluid.carrefour #userAdmin #user-info .iniciais .round{
+    background-color:#82be46!important;
+    color:#fff!important
+}
+header #header.confidence #btnUserAdmin .icons .iniciais span,header #header.confidence #user-info .iniciais a,header #header.confidence #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.confidence #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.confidence #user-info .iniciais a,nav#navMobile .container-fluid.confidence #userAdmin #user-info .iniciais .round{
+    background-color:#00a9f5!important;
+    color:#fff!important
+}
+header #header.citibank #btnUserAdmin .icons .iniciais span,header #header.citibank #user-info .iniciais a,header #header.citibank #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.citibank #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.citibank #user-info .iniciais a,nav#navMobile .container-fluid.citibank #userAdmin #user-info .iniciais .round{
+    background-color:#000757!important;
+    color:#fff!important
+}
+header #header.caixa #btnUserAdmin .icons .iniciais span,header #header.caixa #user-info .iniciais a,header #header.caixa #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.caixa #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.caixa #user-info .iniciais a,nav#navMobile .container-fluid.caixa #userAdmin #user-info .iniciais .round{
+    background-color:#0070af!important;
+    color:#fff!important
+}
+header #header.bv #btnUserAdmin .icons .iniciais span,header #header.bv #user-info .iniciais a,header #header.bv #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.bv #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.bv #user-info .iniciais a,nav#navMobile .container-fluid.bv #userAdmin #user-info .iniciais .round{
+    background-color:#d9222c!important;
+    color:#fff!important
+}
+header #header.brb #btnUserAdmin .icons .iniciais span,header #header.brb #user-info .iniciais a,header #header.brb #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.brb #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.brb #user-info .iniciais a,nav#navMobile .container-fluid.brb #userAdmin #user-info .iniciais .round{
+    background-color:#00a8ec!important;
+    color:#203775!important
+}
+header #header.banestes #btnUserAdmin .icons .iniciais span,header #header.banestes #user-info .iniciais a,header #header.banestes #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.banestes #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.banestes #user-info .iniciais a,nav#navMobile .container-fluid.banestes #userAdmin #user-info .iniciais .round{
+    background-color:#8bc0e8!important;
+    color:#014687!important
+}
+header #header.bancoob #btnUserAdmin .icons .iniciais span,header #header.bancoob #user-info .iniciais a,header #header.bancoob #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.bancoob #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.bancoob #user-info .iniciais a,nav#navMobile .container-fluid.bancoob #userAdmin #user-info .iniciais .round{
+    background-color:#72a63f!important;
+    color:#fff!important
+}
+header #header.mercantil #btnUserAdmin .icons .iniciais span,header #header.mercantil #user-info .iniciais a,header #header.mercantil #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.mercantil #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.mercantil #user-info .iniciais a,nav#navMobile .container-fluid.mercantil #userAdmin #user-info .iniciais .round{
+    background-color:#013d74!important;
+    color:#fff!important
+}
+header #header.industrial #btnUserAdmin .icons .iniciais span,header #header.industrial #user-info .iniciais a,header #header.industrial #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.industrial #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.industrial #user-info .iniciais a,nav#navMobile .container-fluid.industrial #userAdmin #user-info .iniciais .round{
+    background-color:#002060!important;
+    color:#fff!important
+}
+header #header.nordeste #btnUserAdmin .icons .iniciais span,header #header.nordeste #user-info .iniciais a,header #header.nordeste #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.nordeste #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.nordeste #user-info .iniciais a,nav#navMobile .container-fluid.nordeste #userAdmin #user-info .iniciais .round{
+    background-color:#93233b!important;
+    color:#ea8e30!important
+}
+header #header.votorantim #btnUserAdmin .icons .iniciais span,header #header.votorantim #user-info .iniciais a,header #header.votorantim #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.votorantim #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.votorantim #user-info .iniciais a,nav#navMobile .container-fluid.votorantim #userAdmin #user-info .iniciais .round{
+    background-color:#0160a0!important;
+    color:#fff!important
+}
+header #header.banco-pan #btnUserAdmin .icons .iniciais span,header #header.banco-pan #user-info .iniciais a,header #header.banco-pan #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.banco-pan #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.banco-pan #user-info .iniciais a,nav#navMobile .container-fluid.banco-pan #userAdmin #user-info .iniciais .round{
+    background-color:#006bb2!important;
+    color:#fff!important
+}
+header #header.bonsucesso #btnUserAdmin .icons .iniciais span,header #header.bonsucesso #user-info .iniciais a,header #header.bonsucesso #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.bonsucesso #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.bonsucesso #user-info .iniciais a,nav#navMobile .container-fluid.bonsucesso #userAdmin #user-info .iniciais .round{
+    background-color:#e8ac32!important;
+    color:#052857!important
+}
+header #header.porto-seguro #btnUserAdmin .icons .iniciais span,header #header.porto-seguro #user-info .iniciais a,header #header.porto-seguro #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.porto-seguro #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.porto-seguro #user-info .iniciais a,nav#navMobile .container-fluid.porto-seguro #userAdmin #user-info .iniciais .round{
+    background-color:#1894db!important;
+    color:#fff!important
+}
+header #header.santander #btnUserAdmin .icons .iniciais span,header #header.santander #user-info .iniciais a,header #header.santander #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.santander #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.santander #user-info .iniciais a,nav#navMobile .container-fluid.santander #userAdmin #user-info .iniciais .round{
+    background-color:#fe0000!important;
+    color:#fff!important
+}
+header #header.rendimento #btnUserAdmin .icons .iniciais span,header #header.rendimento #user-info .iniciais a,header #header.rendimento #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.rendimento #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.rendimento #user-info .iniciais a,nav#navMobile .container-fluid.rendimento #userAdmin #user-info .iniciais .round{
+    background-color:#0b284c!important;
+    color:#fff!important
+}
+header #header.gerador #btnUserAdmin .icons .iniciais span,header #header.gerador #user-info .iniciais a,header #header.gerador #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.gerador #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.gerador #user-info .iniciais a,nav#navMobile .container-fluid.gerador #userAdmin #user-info .iniciais .round{
+    background-color:#cc010c!important;
+    color:#fff!important
+}
+header #header.amazonia #btnUserAdmin .icons .iniciais span,header #header.amazonia #user-info .iniciais a,header #header.amazonia #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.amazonia #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.amazonia #user-info .iniciais a,nav#navMobile .container-fluid.amazonia #userAdmin #user-info .iniciais .round{
+    background-color:#017d37!important;
+    color:#fff!important
+}
+header #header.alelo #btnUserAdmin .icons .iniciais span,header #header.alelo #user-info .iniciais a,header #header.alelo #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.alelo #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.alelo #user-info .iniciais a,nav#navMobile .container-fluid.alelo #userAdmin #user-info .iniciais .round{
+    background-color:#029b81!important;
+    color:#fff!important
+}
+header #header.neon #btnUserAdmin .icons .iniciais span,header #header.neon #user-info .iniciais a,header #header.neon #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.neon #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.neon #user-info .iniciais a,nav#navMobile .container-fluid.neon #userAdmin #user-info .iniciais .round{
+    background-color:#01c6c7!important;
+    color:#fff!important
+}
+header #header.meu-cartao #btnUserAdmin .icons .iniciais span,header #header.meu-cartao #user-info .iniciais a,header #header.meu-cartao #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.meu-cartao #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.meu-cartao #user-info .iniciais a,nav#navMobile .container-fluid.meu-cartao #userAdmin #user-info .iniciais .round{
+    background-color:#000!important;
+    color:#fff!important
+}
+header #header.ccb-brasil #btnUserAdmin .icons .iniciais span,header #header.ccb-brasil #user-info .iniciais a,header #header.ccb-brasil #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.ccb-brasil #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.ccb-brasil #user-info .iniciais a,nav#navMobile .container-fluid.ccb-brasil #userAdmin #user-info .iniciais .round{
+    background-color:#014a99!important;
+    color:#fff!important
+}
+header #header.banrisul #btnUserAdmin .icons .iniciais span,header #header.banrisul #user-info .iniciais a,header #header.banrisul #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.banrisul #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.banrisul #user-info .iniciais a,nav#navMobile .container-fluid.banrisul #userAdmin #user-info .iniciais .round{
+    background-color:#035698!important;
+    color:#fff!important
+}
+header #header.cbss #btnUserAdmin .icons .iniciais span,header #header.cbss #user-info .iniciais a,header #header.cbss #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.cbss #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.cbss #user-info .iniciais a,nav#navMobile .container-fluid.cbss #userAdmin #user-info .iniciais .round{
+    background-color:#104a87!important;
+    color:#fff!important
+}
+header #header.leader #btnUserAdmin .icons .iniciais span,header #header.leader #user-info .iniciais a,header #header.leader #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.leader #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.leader #user-info .iniciais a,nav#navMobile .container-fluid.leader #userAdmin #user-info .iniciais .round{
+    background-color:#cc3127!important;
+    color:#fff!important
+}
+header #header.fibra #btnUserAdmin .icons .iniciais span,header #header.fibra #user-info .iniciais a,header #header.fibra #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.fibra #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.fibra #user-info .iniciais a,nav#navMobile .container-fluid.fibra #userAdmin #user-info .iniciais .round{
+    background-color:#1f307e!important;
+    color:#fff!important
+}
+header #header.bndes #btnUserAdmin .icons .iniciais span,header #header.bndes #user-info .iniciais a,header #header.bndes #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.bndes #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.bndes #user-info .iniciais a,nav#navMobile .container-fluid.bndes #userAdmin #user-info .iniciais .round{
+    background-color:#00854c!important;
+    color:#fff!important
+}
+header #header.itau-personnalite #btnUserAdmin .icons .iniciais span,header #header.itau-personnalite #user-info .iniciais a,header #header.itau-personnalite #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.itau-personnalite #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.itau-personnalite #user-info .iniciais a,nav#navMobile .container-fluid.itau-personnalite #userAdmin #user-info .iniciais .round{
+    background-color:#04234c!important;
+    color:#b3914d!important
+}
+header #header.banco-renner #btnUserAdmin .icons .iniciais span,header #header.banco-renner #user-info .iniciais a,header #header.banco-renner #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.banco-renner #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.banco-renner #user-info .iniciais a,nav#navMobile .container-fluid.banco-renner #userAdmin #user-info .iniciais .round{
+    background-color:#fdb931!important;
+    color:#095185!important
+}
+header #header.crediare #btnUserAdmin .icons .iniciais span,header #header.crediare #user-info .iniciais a,header #header.crediare #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.crediare #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.crediare #user-info .iniciais a,nav#navMobile .container-fluid.crediare #userAdmin #user-info .iniciais .round{
+    background-color:#00a636!important;
+    color:#004289!important
+}
+header #header.digio #btnUserAdmin .icons .iniciais span,header #header.digio #user-info .iniciais a,header #header.digio #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.digio #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.digio #user-info .iniciais a,nav#navMobile .container-fluid.digio #userAdmin #user-info .iniciais .round{
+    background-color:#25e6c5!important;
+    color:#00144f!important
+}
+header #header.citi #btnUserAdmin .icons .iniciais span,header #header.citi #user-info .iniciais a,header #header.citi #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.citi #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.citi #user-info .iniciais a,nav#navMobile .container-fluid.citi #userAdmin #user-info .iniciais .round{
+    background-color:#c3c3c3!important;
+    color:#ea2035!important
+}
+header #header.bmg #btnUserAdmin .icons .iniciais span,header #header.bmg #user-info .iniciais a,header #header.bmg #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.bmg #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.bmg #user-info .iniciais a,nav#navMobile .container-fluid.bmg #userAdmin #user-info .iniciais .round{
+    background-color:#ff7300!important;
+    color:#fff!important
+}
+header #header.visa #btnUserAdmin .icons .iniciais span,header #header.visa #user-info .iniciais a,header #header.visa #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.visa #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.visa #user-info .iniciais a,nav#navMobile .container-fluid.visa #userAdmin #user-info .iniciais .round{
+    background-color:#1a1f71!important;
+    color:#fff!important
+}
+header #header.hsbc #btnUserAdmin .icons .iniciais span,header #header.hsbc #user-info .iniciais a,header #header.hsbc #userAdmin #user-info .iniciais .round,nav#navMobile .container-fluid.hsbc #btnUserAdmin .icons .iniciais span,nav#navMobile .container-fluid.hsbc #user-info .iniciais a,nav#navMobile .container-fluid.hsbc #userAdmin #user-info .iniciais .round{
+    background-color:#e71d1c!important;
+    color:#fff!important
+}
+header #header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000
+}
+header #header .alert{
+    margin-bottom:0;
+    border-left:none;
+    border-right:none;
+    padding:15px 70px;
+    display:none;
+    position:absolute;
+    left:0;
+    right:0;
+    z-index:999
+}
+header #header .alert.alert-success{
+    border-color:#9edca9;
+    background-color:#f3faf3;
+    border-radius:0;
+    color:#34ba37;
+    font-size:20px;
+    letter-spacing:-1px;
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400
+}
+header #header .alert.alert-success strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+header #header .alert.alert-success em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+header #header .alert.alert-success p{
+    display:inline-block
+}
+header #header .alert.alert-success a{
+    display:block;
+    width:36px;
+    height:36px;
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    border:0;
+    background:url(../img/icon-close-alert.png) center no-repeat;
+    position:absolute;
+    top:50%;
+    right:70px;
+    -webkit-transform:translate(0,-50%);
+    -ms-transform:translate(0,-50%);
+    -o-transform:translate(0,-50%);
+    transform:translate(0,-50%)
+}
+header #header .alert.alert-danger{
+    border-color:#e87878;
+    background-color:#faf3f3;
+    border-radius:0;
+    color:#ed1c24;
+    font-size:20px;
+    letter-spacing:-1px;
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400
+}
+header #header .alert.alert-danger strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+header #header .alert.alert-danger em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+header #header .alert.alert-danger p{
+    display:inline-block
+}
+header #header .alert.alert-danger a{
+    display:block;
+    width:36px;
+    height:36px;
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    border:0;
+    background:url(../img/icon-close-alert-error.png) center no-repeat;
+    position:absolute;
+    top:50%;
+    right:70px;
+    -webkit-transform:translate(0,-50%);
+    -ms-transform:translate(0,-50%);
+    -o-transform:translate(0,-50%);
+    transform:translate(0,-50%)
+}
+header #header #principal{
+    background-image:-webkit-linear-gradient(left,#1a1f71 0,#0c41a5 100%);
+    background-image:-o-linear-gradient(left,#1a1f71 0,#0c41a5 100%);
+    background-image:linear-gradient(to right,#1a1f71 0,#0c41a5 100%);
+    background-repeat:repeat-x;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1a1f71', endColorstr='#ff0c41a5', GradientType=1);
+    position:relative;
+    padding-bottom:4px
+}
+header #header #principal:before{
+    content:'';
+    display:block;
+    height:4px;
+    background-image:-webkit-linear-gradient(left,#fc9400 0,#f7cd00 100%);
+    background-image:-o-linear-gradient(left,#fc9400 0,#f7cd00 100%);
+    background-image:linear-gradient(to right,#fc9400 0,#f7cd00 100%);
+    background-repeat:repeat-x;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffc9400', endColorstr='#fff7cd00', GradientType=1);
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0
+}
+header #header #principal .container #logo a{
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    border:0;
+    width:221px;
+    height:88px;
+    display:block;
+    background:url(../img/logo-visa.png) center no-repeat
+}
+header #header #principal .container #logo-bank{
+    display:none
+}
+header #header #principal .container #userSuport{
+    text-align:right;
+    padding-top:20px
+}
+header #header #principal .container #userSuport #menu-itens{
+    height:50px;
+    border-right:solid 1px rgba(255,255,255,.3)
+}
+header #header #principal .container #userSuport #menu-itens .nav-pills#menu{
+    display:inline-block
+}
+header #header #principal .container #userSuport #menu-itens .nav-pills#menu>li>a{
+    color:#fff;
+    font-size:21px;
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    background-color:transparent;
+    position:relative
+}
+header #header #principal .container #userSuport #menu-itens .nav-pills#menu>li>a strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+header #header #principal .container #userSuport #menu-itens .nav-pills#menu>li>a em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+@media (min-width:992px) and (max-width:1199px){
+    header #header #principal .container #userSuport #menu-itens .nav-pills#menu>li>a{
+        padding:10px 14px
+    }
+}
+header #header #principal .container #userSuport #menu-itens .nav-pills#menu>li>a.active:before{
+    content:'';
+    position:absolute;
+    bottom:-18px;
+    left:50%;
+    transform:translateX(-50%);
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:0 14px 10px;
+    border-color:transparent transparent #f9b200
+}
+header #header #principal .container #userSuport #menu-itens .nav-pills#menu>li>a:hover{
+    color:#f7b600
+}
+header #header #principal .container #userSuport #faq{
+    height:50px
+}
+header #header #principal .container #userSuport #faq #faq-menu{
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    border:0;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:34px;
+    height:31px;
+    margin-top:9px;
+    background:url(../img/ico-faq-menu.png) center no-repeat
+}
+header #header #principal .container #userSuport #user-info{
+    padding-top:2px
+}
+header #header #principal .container #userSuport #user-info .hello{
+    padding-top:10px;
+    font-size:13px;
+    line-height:1.2;
+    font-weight:400;
+    color:#fff;
+    text-decoration:none
+}
+header #header #principal .container #userSuport #user-info .hello span{
+    color:#fda53b;
+    padding-right:15px;
+    background:url(../img/caret_minha_conta.png) center right no-repeat
+}
+header #header #principal .container #userSuport #user-info .iniciais a{
+    display:block;
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    background-color:#1a1f71;
+    text-align:center;
+    font-size:26px;
+    line-height:1;
+    padding:11px 0;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    float:right!important;
+    position:relative
+}
+header #header #principal .container #userSuport #user-info .iniciais a.active:before{
+    content:'';
+    position:absolute;
+    bottom:-22px;
+    left:50%;
+    transform:translateX(-50%);
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:0 14px 10px;
+    border-color:transparent transparent #f9b200
+}
+header #header #principal .container #userSuport #user-notification{
+    padding-top:5px
+}
+header #header #principal .container #userSuport #user-notification #icon{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:30px;
+    height:35px;
+    background:url(../img/icon-notificacoes.png) center no-repeat;
+    position:relative
+}
+header #header #principal .container #userSuport #user-notification #icon .badge{
+    position:absolute;
+    top:-5px;
+    left:20px;
+    background-color:#f9ba00;
+    border-radius:4px;
+    color:#2d51a4;
+    padding:3px;
+    font-size:11px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif{
+    width:320px;
+    border-radius:0;
+    margin-top:15px;
+    padding:0;
+    -webkit-box-shadow:0 0 3.6px 1.4px rgba(0,0,0,.2);
+    box-shadow:0 0 3.6px 1.4px rgba(0,0,0,.2);
+    border:none
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif:before{
+    content:'';
+    display:block;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:0 5px 5px;
+    border-color:transparent transparent #fff;
+    position:absolute;
+    top:-5px;
+    right:22px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #header-notification{
+    padding:17px 16px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #header-notification p{
+    font-size:15px;
+    margin:0;
+    color:#1d226e
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #header-notification a{
+    font-size:15px;
+    color:rgba(0,0,0,.3);
+    text-decoration:underline
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul{
+    margin:0
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li{
+    border-top:solid 1px #ebebeb
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read{
+    padding:15px 30px 15px 70px;
+    display:block;
+    text-decoration:none;
+    color:#828282;
+    font-size:14px;
+    line-height:1;
+    position:relative
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read strong{
+    color:#103898;
+    font-weight:400
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read small{
+    font-size:100%;
+    color:#b9b9b9;
+    display:block;
+    margin-top:5px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.oferta{
+    background-image:url(../img/icon-notif-oferta-readed.png);
+    background-repeat:no-repeat;
+    background-position:center left 17px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.promocao{
+    background-image:url(../img/icon-notif-promocao-readed.png);
+    background-repeat:no-repeat;
+    background-position:center left 20px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.recompensa-instantanea{
+    background-image:url(../img/icon-notif-rec-instant-readed.png);
+    background-repeat:no-repeat;
+    background-position:center left 18px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.cadastro{
+    background-image:url(../img/icon-notif-cadastro-readed.png);
+    background-repeat:no-repeat;
+    background-position:center left 16px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.novidades{
+    background-image:url(../img/icon-notif-novidades-readed.png);
+    background-repeat:no-repeat;
+    background-position:center left 13px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.quiz{
+    background-image:url(../img/icon-notif-quiz-readed.png);
+    background-repeat:no-repeat;
+    background-position:center left 12px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.seguranca{
+    background-image:url(../img/icon-notif-seguranca-readed.png);
+    background-repeat:no-repeat;
+    background-position:center left 20px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.premios{
+    background-image:url(../img/icon-notif-premios-readed.png);
+    background-repeat:no-repeat;
+    background-position:center left 13px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.minha-conta{
+    background-image:url(../img/icon-notif-minha-conta-readed.png);
+    background-repeat:no-repeat;
+    background-position:center left 9px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no{
+    background-color:#eff1f7
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no.oferta{
+    background-image:url(../img/icon-notif-oferta.png)
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no.promocao{
+    background-image:url(../img/icon-notif-promocao.png)
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no.recompensa-instantanea{
+    background-image:url(../img/icon-notif-rec-instant.png)
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no.cadastro{
+    background-image:url(../img/icon-notif-cadastro.png)
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no.novidades{
+    background-image:url(../img/icon-notif-novidades.png)
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no.quiz{
+    background-image:url(../img/icon-notif-quiz.png)
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no.seguranca{
+    background-image:url(../img/icon-notif-seguranca.png)
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no.premios{
+    background-image:url(../img/icon-notif-premios.png)
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no.minha-conta{
+    background-image:url(../img/icon-notif-minha-conta.png)
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no:hover{
+    background-color:#e5e8f0
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no:hover .submenu-dropnotif{
+    display:inherit
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read.no:hover .submenu-dropnotif .btn-link{
+    color:#1a419c
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read:hover{
+    background-color:#f9f9f9
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read:hover .submenu-dropnotif{
+    display:inherit
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read:hover .submenu-dropnotif .btn-link{
+    color:#d2d4d5
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read .submenu-dropnotif{
+    display:none;
+    position:absolute;
+    top:50%;
+    right:0;
+    z-index:999;
+    -webkit-transform:translate(0,-50%);
+    -ms-transform:translate(0,-50%);
+    -o-transform:translate(0,-50%);
+    transform:translate(0,-50%);
+    width:40px;
+    text-align:center
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read .submenu-dropnotif .btn-link{
+    padding:5px 12px;
+    line-height:8px;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    outline:0!important;
+    -webkit-appearance:none;
+    text-decoration:none
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read .submenu-dropnotif .btn-link.btn-readed{
+    font-size:24px;
+    font-weight:700;
+    line-height:14px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read .submenu-dropnotif .dropdown-menu{
+    border-radius:0;
+    border:none;
+    margin:0;
+    padding:0 10px;
+    width:150px;
+    min-width:0
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read .submenu-dropnotif .dropdown-menu .divider{
+    margin:0
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read .submenu-dropnotif .dropdown-menu .btn-link{
+    width:100%;
+    padding:15px;
+    color:#828282!important
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read .submenu-dropnotif .dropdown-menu .btn-link:hover{
+    color:#1a419c!important
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #itens ul li .read .submenu-dropnotif .dropdown-menu-right{
+    right:24px
+}
+header #header #principal .container #userSuport #user-notification #dropdownNotif #more a{
+    border-top:solid 1px #ebebeb;
+    text-align:center;
+    display:block;
+    background-color:#0c41a5;
+    color:#fff;
+    font-size:15px;
+    line-height:1;
+    padding:17px;
+    text-decoration:none
+}
+header #header #principal .container #userSuport #buttons{
+    padding-top:5px
+}
+header #header #principal .container #userSuport #buttons .btn-icon{
+    padding:0;
+    background-color:transparent
+}
+header #header #principal .container #userSuport #buttons #login,header #header #principal .container #userSuport #buttons #register{
+    font-weight:700;
+    font-size:15px;
+    padding:8px 12px;
+    width:160px;
+    text-transform:uppercase
+}
+@media (min-width:768px) and (max-width:991px){
+    header #header #principal .container #userSuport #buttons #login,header #header #principal .container #userSuport #buttons #register{
+        padding:9px;
+        margin:0 3px
+    }
+}
+header #header #principal .container #userSuport #buttons #register{
+    color:#fff;
+    background-color:#0c41a5;
+    border-color:#fff;
+    margin:0 4px 0 0
+}
+header #header #principal .container #userSuport #buttons #register.focus,header #header #principal .container #userSuport #buttons #register:focus{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#bfbfbf
+}
+.open>.dropdown-toggleheader #header #principal .container #userSuport #buttons #register,header #header #principal .container #userSuport #buttons #register.active,header #header #principal .container #userSuport #buttons #register:active,header #header #principal .container #userSuport #buttons #register:hover{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#e0e0e0
+}
+.open>.dropdown-toggleheader #header #principal .container #userSuport #buttons #register.focus,.open>.dropdown-toggleheader #header #principal .container #userSuport #buttons #register:focus,.open>.dropdown-toggleheader #header #principal .container #userSuport #buttons #register:hover,header #header #principal .container #userSuport #buttons #register.active.focus,header #header #principal .container #userSuport #buttons #register.active:focus,header #header #principal .container #userSuport #buttons #register.active:hover,header #header #principal .container #userSuport #buttons #register:active.focus,header #header #principal .container #userSuport #buttons #register:active:focus,header #header #principal .container #userSuport #buttons #register:active:hover{
+    color:#fff;
+    background-color:#062154;
+    border-color:#bfbfbf
+}
+.open>.dropdown-toggleheader #header #principal .container #userSuport #buttons #register,header #header #principal .container #userSuport #buttons #register.active,header #header #principal .container #userSuport #buttons #register:active{
+    background-image:none
+}
+fieldset[disabled] header #header #principal .container #userSuport #buttons #register,fieldset[disabled] header #header #principal .container #userSuport #buttons #register.active,fieldset[disabled] header #header #principal .container #userSuport #buttons #register.focus,fieldset[disabled] header #header #principal .container #userSuport #buttons #register:active,fieldset[disabled] header #header #principal .container #userSuport #buttons #register:focus,fieldset[disabled] header #header #principal .container #userSuport #buttons #register:hover,header #header #principal .container #userSuport #buttons #register.disabled,header #header #principal .container #userSuport #buttons #register.disabled.active,header #header #principal .container #userSuport #buttons #register.disabled.focus,header #header #principal .container #userSuport #buttons #register.disabled:active,header #header #principal .container #userSuport #buttons #register.disabled:focus,header #header #principal .container #userSuport #buttons #register.disabled:hover,header #header #principal .container #userSuport #buttons #register[disabled],header #header #principal .container #userSuport #buttons #register[disabled].active,header #header #principal .container #userSuport #buttons #register[disabled].focus,header #header #principal .container #userSuport #buttons #register[disabled]:active,header #header #principal .container #userSuport #buttons #register[disabled]:focus,header #header #principal .container #userSuport #buttons #register[disabled]:hover{
+    background-color:#0c41a5;
+    border-color:#fff
+}
+header #header #principal .container #userSuport #buttons #register .badge{
+    color:#0c41a5;
+    background-color:#fff
+}
+header #header #principal .container #userSuport #buttons #login{
+    color:#0c41a5;
+    background-color:#fff;
+    border-color:#fff;
+    margin:0 0 0 4px
+}
+header #header #principal .container #userSuport #buttons #login.focus,header #header #principal .container #userSuport #buttons #login:focus{
+    color:#0c41a5;
+    background-color:#e6e6e6;
+    border-color:#bfbfbf
+}
+.open>.dropdown-toggleheader #header #principal .container #userSuport #buttons #login,header #header #principal .container #userSuport #buttons #login.active,header #header #principal .container #userSuport #buttons #login:active,header #header #principal .container #userSuport #buttons #login:hover{
+    color:#0c41a5;
+    background-color:#e6e6e6;
+    border-color:#e0e0e0
+}
+.open>.dropdown-toggleheader #header #principal .container #userSuport #buttons #login.focus,.open>.dropdown-toggleheader #header #principal .container #userSuport #buttons #login:focus,.open>.dropdown-toggleheader #header #principal .container #userSuport #buttons #login:hover,header #header #principal .container #userSuport #buttons #login.active.focus,header #header #principal .container #userSuport #buttons #login.active:focus,header #header #principal .container #userSuport #buttons #login.active:hover,header #header #principal .container #userSuport #buttons #login:active.focus,header #header #principal .container #userSuport #buttons #login:active:focus,header #header #principal .container #userSuport #buttons #login:active:hover{
+    color:#0c41a5;
+    background-color:#d4d4d4;
+    border-color:#bfbfbf
+}
+.open>.dropdown-toggleheader #header #principal .container #userSuport #buttons #login,header #header #principal .container #userSuport #buttons #login.active,header #header #principal .container #userSuport #buttons #login:active{
+    background-image:none
+}
+fieldset[disabled] header #header #principal .container #userSuport #buttons #login,fieldset[disabled] header #header #principal .container #userSuport #buttons #login.active,fieldset[disabled] header #header #principal .container #userSuport #buttons #login.focus,fieldset[disabled] header #header #principal .container #userSuport #buttons #login:active,fieldset[disabled] header #header #principal .container #userSuport #buttons #login:focus,fieldset[disabled] header #header #principal .container #userSuport #buttons #login:hover,header #header #principal .container #userSuport #buttons #login.disabled,header #header #principal .container #userSuport #buttons #login.disabled.active,header #header #principal .container #userSuport #buttons #login.disabled.focus,header #header #principal .container #userSuport #buttons #login.disabled:active,header #header #principal .container #userSuport #buttons #login.disabled:focus,header #header #principal .container #userSuport #buttons #login.disabled:hover,header #header #principal .container #userSuport #buttons #login[disabled],header #header #principal .container #userSuport #buttons #login[disabled].active,header #header #principal .container #userSuport #buttons #login[disabled].focus,header #header #principal .container #userSuport #buttons #login[disabled]:active,header #header #principal .container #userSuport #buttons #login[disabled]:focus,header #header #principal .container #userSuport #buttons #login[disabled]:hover{
+    background-color:#fff;
+    border-color:#fff
+}
+header #header #principal .container #userSuport #buttons #login .badge{
+    color:#fff;
+    background-color:#0c41a5
+}
+header #header #sub-menu{
+    max-height:140px;
+    overflow:hidden;
+    background-color:#fff;
+    -webkit-transition:all .6s ease;
+    -o-transition:all .6s ease;
+    transition:all .6s ease
+}
+header #header #sub-menu.inactive{
+    height:0
+}
+header #header #sub-menu.active{
+    height:140px;
+    -webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,.3);
+    box-shadow:0 2px 2px 0 rgba(0,0,0,.3)
+}
+header #header #sub-menu .sub-itens{
+    padding-top:30px;
+    padding-bottom:30px
+}
+header #header #sub-menu .sub-itens .center-pills{
+    display:inline-block
+}
+header #header #sub-menu .sub-itens .center-pills li.logo-banco{
+    margin-top:-12px
+}
+header #header #sub-menu .sub-itens .center-pills li.logo-banco a img{
+    margin-bottom:2px
+}
+header #header #sub-menu .sub-itens .center-pills li a{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    font-size:17px;
+    color:#1d226e;
+    line-height:1;
+    padding:0;
+    background-color:transparent
+}
+header #header #sub-menu .sub-itens .center-pills li a strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+header #header #sub-menu .sub-itens .center-pills li a em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+header #header #sub-menu .sub-itens .center-pills li a:hover{
+    text-decoration:underline
+}
+header #header #sub-menu .sub-itens .center-pills li a img{
+    margin-bottom:10px
+}
+header #header #sub-menu .sub-itens .center-pills li:first-child{
+    margin-left:0!important
+}
+header #header #sub-menu .sub-itens .center-pills li:last-child{
+    margin-right:0!important
+}
+header #header #sub-menu .sub-itens#menu-oportal{
+    display:none
+}
+header #header #sub-menu .sub-itens#menu-oportal .center-pills li{
+    margin-left:50px;
+    margin-right:50px
+}
+header #header #sub-menu .sub-itens#menu-ofertas{
+    display:none
+}
+header #header #sub-menu .sub-itens#menu-ofertas .center-pills li{
+    margin-left:45px;
+    margin-right:45px
+}
+@media (min-width:992px){
+    header #header #sub-menu .sub-itens#menu-ofertas .center-pills li{
+        margin-left:35px;
+        margin-right:35px
+    }
+}
+@media (min-width:1200px){
+    header #header #sub-menu .sub-itens#menu-ofertas .center-pills li{
+        margin-left:45px;
+        margin-right:45px
+    }
+}
+header #header #sub-menu .sub-itens#menu-sorteios{
+    display:none
+}
+header #header #sub-menu .sub-itens#menu-sorteios .center-pills li{
+    margin-left:45px;
+    margin-right:45px
+}
+header #header #sub-menu .sub-itens#menu-conta{
+    display:none
+}
+header #header #sub-menu .sub-itens#menu-conta .center-pills li{
+    margin-left:40px;
+    margin-right:40px
+}
+@media (min-width:992px){
+    header #header #sub-menu .sub-itens#menu-conta .center-pills li{
+        margin-left:25px;
+        margin-right:25px
+    }
+}
+@media (min-width:1200px){
+    header #header #sub-menu .sub-itens#menu-conta .center-pills li{
+        margin-left:40px;
+        margin-right:40px
+    }
+}
+header #header #sub-menu .sub-itens.showMenu{
+    display:block!important
+}
+header #dashboard{
+    min-height:40px;
+    background-color:#fff;
+    padding:10px 0;
+    position:relative;
+    z-index:999;
+    -webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,.43);
+    box-shadow:0 2px 2px 0 rgba(0,0,0,.43)
+}
+header #dashboard #userInfo{
+    text-align:right
+}
+header #dashboard #userInfo p{
+    margin:0 5px 0 0;
+    display:inline-block;
+    font-size:18px;
+    line-height:27px;
+    color:#0b53b4;
+    font-family:Myriad-Light,Arial,sans-serif
+}
+header #dashboard #banksCards #btn-cards .dropdown .btn-default{
+    border-radius:0;
+    border:none;
+    border-left:solid 1px #c2c2c2;
+    background:url(../img/ico-caret-dash.png) 20px center no-repeat;
+    text-align:left;
+    outline:0!important;
+    -webkit-appearance:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    color:#4d4d4d;
+    font-size:18px;
+    line-height:27px;
+    font-family:Myriad-Light,Arial,sans-serif;
+    position:relative;
+    z-index:1001;
+    padding:0 0 0 40px;
+    margin-left:15px
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu{
+    background-color:#0d3fa1;
+    top:35px;
+    border-radius:0 0 5px 5px;
+    border:none;
+    width:360px;
+    padding-bottom:0;
+    box-shadow:-7px -1px 4px -5px rgba(0,0,0,.3),7px -1px 4px -5px rgba(0,0,0,.3)
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu p{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-size:15px;
+    line-height:1;
+    color:#fff;
+    margin:25px 0 25px 30px
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled{
+    margin:0 20px 20px
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li{
+    border-bottom:solid 1px rgba(255,255,255,.2);
+    padding:15px
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select p{
+    margin:0;
+    text-transform:uppercase;
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:checked,header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:not(:checked){
+    position:absolute;
+    left:-9999px
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:checked~label,header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:not(:checked)~label{
+    position:relative;
+    padding-left:30px;
+    cursor:pointer;
+    display:block;
+    margin-bottom:0;
+    font-size:16px;
+    min-height:23px;
+    color:#1a1f71
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:checked~label:before,header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:not(:checked)~label:before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    border:1px solid rgba(255,255,255,.2);
+    background:#103997
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:checked.input-validation-error~label:before,header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:not(:checked).input-validation-error~label:before{
+    border-color:red
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:checked~label:after,header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:not(:checked)~label:after{
+    content:'';
+    position:absolute;
+    top:5px;
+    left:5px;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color:#fff
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:not(:checked)~label:after{
+    opacity:0;
+    transform:scale(0)
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:checked~label:after{
+    opacity:1;
+    transform:scale(1)
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:disabled:checked~label:before,header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:disabled:not(:checked)~label:before{
+    box-shadow:none;
+    border-color:#bbb;
+    background-color:#ddd
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:disabled:checked~label:after{
+    color:#999
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li .select [type=radio]:disabled~label{
+    color:#aaa
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li.btn-add-card{
+    padding:0;
+    border-bottom:none
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li.btn-add-card a.btn-primary{
+    width:100%;
+    padding:15px 25px;
+    margin-top:25px;
+    background-color:#f6b32f;
+    background-image:-webkit-linear-gradient(left,#f8a52c 0,#f9c72e 100%);
+    background-image:-o-linear-gradient(left,#f8a52c 0,#f9c72e 100%);
+    background-image:linear-gradient(to right,#f8a52c 0,#f9c72e 100%);
+    background-repeat:repeat-x;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8a52c', endColorstr='#fff9c72e', GradientType=1);
+    border:none;
+    box-shadow:none
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li.btn-add-card a.btn-primary span{
+    height:36px;
+    display:inline-block;
+    line-height:36px;
+    font-size:16px;
+    letter-spacing:-1px;
+    color:#0c41a5
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li.btn-add-card a.btn-primary span.text{
+    float:left!important;
+    margin-left:20px
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li.btn-add-card a.btn-primary span.icon-add-card{
+    width:55px;
+    float:left!important;
+    background:url(../img/icon-add-card.png) center no-repeat
+}
+header #dashboard #banksCards #btn-cards .dropdown-menu ul.list-unstyled li.btn-add-card a.btn-primary span.icon-goto-cards{
+    width:15px;
+    float:right!important;
+    background:url(../img/icon-goto-cards.png) center no-repeat
+}
+nav#navMobile{
+    border:none;
+    margin-bottom:0;
+    height:70px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000
+}
+nav#navMobile .alert{
+    padding:30px;
+    display:none
+}
+nav#navMobile .alert.alert-success{
+    border-color:#9edca9;
+    background-color:#f3faf3;
+    border-radius:0;
+    color:#34ba37;
+    font-size:15px;
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    position:relative
+}
+nav#navMobile .alert.alert-success strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+nav#navMobile .alert.alert-success em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+nav#navMobile .alert.alert-success p{
+    display:inline-block;
+    margin-right:45px
+}
+nav#navMobile .alert.alert-success a{
+    display:block;
+    width:36px;
+    height:36px;
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    border:0;
+    background:url(../img/icon-close-alert.png) center no-repeat;
+    position:absolute;
+    top:50%;
+    right:30px;
+    -webkit-transform:translate(0,-50%);
+    -ms-transform:translate(0,-50%);
+    -o-transform:translate(0,-50%);
+    transform:translate(0,-50%)
+}
+nav#navMobile .alert.alert-danger{
+    border-color:#ea7979;
+    background-color:#faf3f3;
+    border-radius:0;
+    color:#dd8787;
+    font-size:15px;
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    position:relative
+}
+nav#navMobile .alert.alert-danger strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+nav#navMobile .alert.alert-danger em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+nav#navMobile .alert.alert-danger p{
+    display:inline-block;
+    margin-right:45px
+}
+nav#navMobile .alert.alert-danger a{
+    display:block;
+    width:36px;
+    height:36px;
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    border:0;
+    background:url(../img/icon-close-alert-error.png) center no-repeat;
+    position:absolute;
+    top:50%;
+    right:30px;
+    -webkit-transform:translate(0,-50%);
+    -ms-transform:translate(0,-50%);
+    -o-transform:translate(0,-50%);
+    transform:translate(0,-50%)
+}
+nav#navMobile .navbar-header{
+    background-image:-webkit-linear-gradient(left,#1a1f71 0,#0c41a5 100%);
+    background-image:-o-linear-gradient(left,#1a1f71 0,#0c41a5 100%);
+    background-image:linear-gradient(to right,#1a1f71 0,#0c41a5 100%);
+    background-repeat:repeat-x;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1a1f71', endColorstr='#ff0c41a5', GradientType=1);
+    border-bottom:solid 4px #f8bf00;
+    padding-top:20px;
+    height:70px
+}
+nav#navMobile .navbar-brand{
+    padding:0;
+    height:auto;
+    margin-left:5px
+}
+nav#navMobile .div-btn{
+    border-right:solid 1px #5973b4
+}
+nav#navMobile #btnUserNav{
+    float:none;
+    margin:2px auto;
+    padding:3px 6px;
+    border:none;
+    background-color:transparent;
+    display:block
+}
+nav#navMobile #btnUserNav .icon-bar{
+    width:25px;
+    background-color:#cfd6e9;
+    border-radius:0
+}
+nav#navMobile #btnUserNav.collapsed .icons{
+    display:block
+}
+nav#navMobile #btnUserNav .icons,nav#navMobile #btnUserNav.collapsed .icon-close{
+    display:none
+}
+nav#navMobile #btnUserNav .icon-close{
+    display:block
+}
+nav#navMobile #btnUserAdmin{
+    float:none;
+    margin:0 auto;
+    padding:2px 0 3px;
+    border:none;
+    background-color:transparent;
+    display:block
+}
+nav#navMobile #btnUserAdmin.collapsed .icons{
+    display:block
+}
+nav#navMobile #btnUserAdmin .icons,nav#navMobile #btnUserAdmin.collapsed .icon-close{
+    display:none
+}
+nav#navMobile #btnUserAdmin .icons .iniciais span{
+    display:block;
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    background-color:#1894db;
+    text-align:center;
+    font-size:17px;
+    line-height:1;
+    padding:8px 0;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    margin-top:-3px
+}
+nav#navMobile #btnUserAdmin .icon-close{
+    padding-top:3px;
+    height:20px;
+    display:block
+}
+nav#navMobile .nav-pills>li>a{
+    border-radius:0;
+    text-align:left;
+    border-bottom:solid 1px #cdcdcd;
+    color:#1d226e;
+    font-size:21px;
+    line-height:1;
+    padding-top:20px;
+    padding-bottom:25px
+}
+nav#navMobile .nav-pills>li>a:focus,nav#navMobile .nav-pills>li>a:hover{
+    background-color:transparent
+}
+nav#navMobile .nav-stacked>li+li{
+    margin-top:0
+}
+nav#navMobile #userAdmin,nav#navMobile #userNav{
+    border-top:none;
+    padding-left:0;
+    padding-right:0;
+    background-color:#fff;
+    -webkit-box-shadow:0 3px 7px 0 rgba(0,0,0,.5);
+    box-shadow:0 3px 7px 0 rgba(0,0,0,.5)
+}
+nav#navMobile #userAdmin .well,nav#navMobile #userNav .well{
+    background-color:#f8f8f8;
+    border-radius:0;
+    margin-bottom:0;
+    border:none;
+    border-bottom:solid 1px #cdcdcd
+}
+nav#navMobile #userAdmin .well .list-unstyled,nav#navMobile #userNav .well .list-unstyled{
+    margin-left:31px
+}
+nav#navMobile #userAdmin .well .list-unstyled a,nav#navMobile #userNav .well .list-unstyled a{
+    color:#1d226e;
+    font-size:18px;
+    text-decoration:none;
+    padding:10px 0;
+    display:block
+}
+nav#navMobile #userNav .nav-pills>li>a{
+    padding-left:50px;
+    background:url(../img/icon-seta-mobile-collapsed.png) center left no-repeat
+}
+nav#navMobile #userNav .nav-pills>li>a.collapsed{
+    background:url(../img/icon-seta-mobile.png) center left no-repeat
+}
+nav#navMobile #userNav #faq-mobile{
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    border:0;
+    float:right!important;
+    margin-right:20px;
+    display:block;
+    width:34px;
+    height:31px;
+    margin-top:30px;
+    margin-bottom:30px;
+    background:url(../img/ico-faq-menu.png) center no-repeat
+}
+nav#navMobile #userAdmin .nav-pills{
+    margin-top:15px
+}
+nav#navMobile #userAdmin .nav-pills>li>a{
+    padding-left:50px
+}
+nav#navMobile #userAdmin #user-info{
+    padding-top:15px
+}
+nav#navMobile #userAdmin #user-info .hello{
+    padding-top:10px;
+    font-size:13px;
+    line-height:1.2;
+    font-weight:400;
+    color:#828282
+}
+nav#navMobile #userAdmin #user-info .iniciais .round{
+    display:block;
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    background-color:#1894db;
+    border:2px solid #fff;
+    text-align:center;
+    font-size:26px;
+    line-height:46px;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400
+}
+nav#navMobile #userAdmin #logo-banco{
+    text-align:right;
+    padding-top:15px
+}
+@media (max-width:767px){
+    nav#navMobile #userAdmin #logo-banco img{
+        width:100%;
+        padding-left:4px;
+        padding-right:4px
+    }
+}
+nav#navMobile #userAdmin .logout{
+    background-color:#d9d9d9;
+    padding-right:50px
+}
+nav#navMobile #userAdmin .logout .icon{
+    float:right!important;
+    display:block;
+    width:14px;
+    height:21px;
+    background:url(../img/icon-sair-mobile.png) center no-repeat
+}
+nav#navMobile .div-notif{
+    border-left:solid 1px #5973b4;
+    height:30px
+}
+nav#navMobile .div-notif #icon-notif{
+    display:block;
+    margin-left:5px;
+    width:23px;
+    height:26px;
+    background:url(../img/icon-notificacoes-small.png) center no-repeat;
+    position:relative
+}
+nav#navMobile .div-notif #icon-notif .badge{
+    position:absolute;
+    top:-9px;
+    left:13px;
+    background-color:#f9ba00;
+    border-radius:4px;
+    color:#2d51a4;
+    padding:3px;
+    font-size:11px
+}
+@media (max-width:767px){
+    .container{
+        max-width:320px
+    }
+}
+.like-btn .like{
+    float:left!important;
+    width:31px;
+    height:24px;
+    display:inline-block;
+    overflow:hidden;
+    background:url(../img/icon-like.png) center top no-repeat
+}
+.like-btn .badge{
+    float:left!important;
+    font-size:15px;
+    line-height:18px;
+    background-color:transparent;
+    font-weight:400;
+    color:#f6b32f
+}
+.like-btn.liked .like{
+    background-position:center bottom
+}
+span.icon-offers-gastronomia{
+    display:inline-block;
+    width:33px;
+    height:37px;
+    background:url(../img/icon-thumbnail-offers-gastronomia.png) center center no-repeat;
+    float:left;
+    margin-right:10px
+}
+span.icon-offers-viagem{
+    display:inline-block;
+    width:41px;
+    height:36px;
+    background:url(../img/icon-thumbnail-offers-viagem.png) center center no-repeat;
+    float:left;
+    margin-right:10px
+}
+span.icon-offers-compras{
+    display:inline-block;
+    width:36px;
+    height:37px;
+    background:url(../img/icon-thumbnail-offers-compras.png) center center no-repeat;
+    float:left;
+    margin-right:10px
+}
+span.icon-offers-entretenimento{
+    display:inline-block;
+    width:33px;
+    height:37px;
+    background:url(../img/icon-thumbnail-offers-entretenimento.png) center center no-repeat;
+    float:left;
+    margin-right:10px
+}
+#social-media{
+    background-color:#dfe4eb;
+    padding-top:100px;
+    padding-bottom:100px
+}
+#social-media .col-sm-9{
+    padding:0;
+    margin:0 auto;
+    float:none
+}
+#social-media .social-thumb{
+    width:343px;
+    margin:0 19px;
+    display:inline-block
+}
+#social-media .social-thumb:first-child{
+    margin-left:0
+}
+#social-media .social-thumb:last-child{
+    margin-right:0
+}
+#social-media .social-thumb header p{
+    display:inline-block;
+    font-size:18px;
+    line-height:32px;
+    margin-bottom:0
+}
+#social-media .social-thumb header p .social-icon{
+    display:block;
+    width:32px;
+    height:32px;
+    margin-right:5px;
+    float:left!important;
+    background-position:center center;
+    background-repeat:no-repeat
+}
+#social-media .social-thumb header a{
+    float:right!important;
+    font-size:16px;
+    line-height:32px;
+    color:inherit;
+    text-decoration:underline
+}
+#social-media .social-thumb header a:hover{
+    text-decoration:none
+}
+#social-media .social-thumb#social-facebook .social-icon{
+    background-image:url(../img/icon-social-facebook.png)
+}
+#social-media .social-thumb#social-instagram .social-icon{
+    background-image:url(../img/icon-social-instagram.png)
+}
+#social-media .social-thumb#social-twitter .social-icon{
+    background-image:url(../img/icon-social-twitter.png)
+}
+#social-media .social-thumb .holder{
+    width:100%;
+    height:450px;
+    border:1px solid #d9d9d9;
+    background-color:#fff;
+    margin-top:15px;
+    overflow:hidden
+}
+#social-media .social-thumb .holder .bjqs figure{
+    position:relative
+}
+#social-media .social-thumb .holder .bjqs figure figcaption{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:0;
+    background-color:#f6b32f;
+    overflow:hidden;
+    color:#fff;
+    font-size:16px
+}
+#social-media .social-thumb .holder .bjqs figure figcaption p{
+    margin:0;
+    padding:30px
+}
+#social-media .social-thumb .holder .bjqs .info{
+    font-size:18px;
+    padding:20px 10px 0
+}
+#social-media .social-thumb .holder .bjqs .info span{
+    display:inline-block;
+    line-height:27px;
+    margin-right:15px
+}
+#social-media .social-thumb .holder .bjqs .info span.date{
+    float:right!important;
+    margin-right:0
+}
+#social-media .social-thumb .holder #slideshow-facebook .bjqs .info span.likes{
+    padding-left:32px;
+    background:url(../img/icon-like-facebook.png) center left no-repeat
+}
+#social-media .social-thumb .holder #slideshow-facebook .bjqs .info span.comments{
+    padding-left:28px;
+    background:url(../img/icon-comments-facebook.png) center left no-repeat
+}
+#social-media .social-thumb .holder #slideshow-facebook .bjqs .info span.shares{
+    margin-right:0;
+    padding-left:30px;
+    background:url(../img/icon-shares-facebook.png) center left no-repeat
+}
+#social-media .social-thumb .holder #slideshow-instagram .bjqs .info span.likes{
+    padding-left:32px;
+    background:url(../img/icon-like-instagram.png) center left no-repeat
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li{
+    padding:30px 13px 0
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li .content{
+    padding:0 15px
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li .content .text{
+    height:110px
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li .content .text a{
+    color:inherit;
+    text-decoration:none
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li .content .text h4{
+    margin:0;
+    color:#f6b32f;
+    font-size:16px;
+    line-height:1.2
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li .content .text p{
+    margin:0;
+    font-size:16px;
+    line-height:1.2
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li .content hr{
+    border-color:#e1e1e1
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li .content .info{
+    padding:0
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li .content .info span{
+    line-height:24px
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li .content .info span.likes{
+    padding-left:30px;
+    background:url(../img/icon-like-twitter.png) center left no-repeat
+}
+#social-media .social-thumb .holder #slideshow-twitter .bjqs li .content .info span.shares{
+    padding-left:32px;
+    background:url(../img/icon-shares-twitter.png) center left no-repeat
+}
+#social-media .social-thumb .holder .bjqs-markers li a{
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    border:0;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background-color:#cdcdcd;
+    margin:0 4px
+}
+#social-media .social-thumb .holder .bjqs-markers li.active-marker a{
+    background-color:#1a1f71
+}
+#footerDesk{
+    padding-top:60px;
+    background-color:#f7f7f7
+}
+#footerDesk .line{
+    padding-bottom:30px;
+    border-bottom:solid 1px #cdcdcd
+}
+#footerDesk #social{
+    margin-bottom:0
+}
+#footerDesk #social li{
+    margin-top:0!important;
+    margin-bottom:0!important;
+    margin-right:15px!important;
+    float:left!important
+}
+#footerDesk #social li:last-child{
+    margin-right:0!important
+}
+#footerDesk #social li a{
+    display:block;
+    width:18px;
+    height:18px;
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    background-color:transparent;
+    border:0;
+    background-position:center!important;
+    background-repeat:no-repeat!important
+}
+#footerDesk #social li a#facebook{
+    background-image:url(../img/icon-facebook.png)
+}
+#footerDesk #social li a#twitter{
+    background-image:url(../img/icon-twitter.png)
+}
+#footerDesk #social li a#instagram{
+    background-image:url(../img/icon-instagram.png)
+}
+#footerDesk #social li a#thumblr{
+    background-image:url(../img/icon-thumblr.png)
+}
+#footerDesk #social li a#linkedin{
+    background-image:url(../img/icon-linkedin.png)
+}
+#footerDesk #mapSite{
+    font-size:16px;
+    color:#8b9296
+}
+#footerDesk #mapSite strong{
+    font-size:20px;
+    color:#1d226e;
+    font-weight:400;
+    margin-bottom:40px;
+    display:block
+}
+#footerDesk #mapSite ul.list-unstyled{
+    margin-top:25px
+}
+#footerDesk #mapSite ul.list-unstyled li{
+    margin:10px 0
+}
+#footerDesk #mapSite ul.list-unstyled a{
+    color:inherit
+}
+#footerDesk #mapSite ul.list-unstyled a[target='_blank']{
+    padding-right:20px;
+    background:url(../img/icon-external-link.png) center right no-repeat
+}
+#footerDesk #copyright{
+    font-size:13px;
+    color:#8b9296;
+    margin:45px 0 60px
+}
+#footerDesk #copyright p{
+    margin-top:25px
+}
+#footerMobile{
+    background-color:#f7f7f7;
+    border-top:solid 1px #cdcdcd
+}
+#footerMobile .line{
+    padding-bottom:20px;
+    padding-left:15px;
+    border-bottom:solid 1px #cdcdcd
+}
+#footerMobile #social{
+    padding:18px 0 18px 10px;
+    margin-bottom:0;
+    overflow:hidden;
+    border-bottom:solid 1px #cdcdcd
+}
+#footerMobile #social li{
+    float:left;
+    margin-right:15px
+}
+#footerMobile #social li:last-child{
+    margin-right:0
+}
+#footerMobile #social li a{
+    display:block;
+    width:16px;
+    height:17px;
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    background-color:transparent;
+    border:0
+}
+#footerMobile #social li a#facebook{
+    background:url(../img/icon-facebook.png) center no-repeat
+}
+#footerMobile #social li a#twitter{
+    background:url(../img/icon-twitter.png) center no-repeat
+}
+#footerMobile #social li a#instagram{
+    background:url(../img/icon-instagram.png) center no-repeat
+}
+#footerMobile #social li a#thumblr{
+    background:url(../img/icon-thumblr.png) center no-repeat
+}
+#footerMobile #mapSite ul.list-unstyled{
+    margin-bottom:0
+}
+#footerMobile #mapSite ul.list-unstyled li{
+    margin-bottom:15px;
+    font-size:14px;
+    color:#8a9297
+}
+#footerMobile #mapSite ul.list-unstyled li a{
+    color:inherit
+}
+#footerMobile #mapSite ul.list-unstyled li:last-child{
+    margin-bottom:0
+}
+#footerMobile #mapSite ul.list-unstyled li a[target='_blank']{
+    padding-right:20px;
+    background:url(../img/icon-external-link.png) center right no-repeat
+}
+#footerMobile .panel-group{
+    margin-bottom:0
+}
+#footerMobile .panel-default{
+    border-color:transparent
+}
+#footerMobile .panel-default>.panel-heading{
+    background-color:transparent;
+    border:none;
+    border-radius:0
+}
+#footerMobile .panel-default>.panel-heading a{
+    display:block;
+    padding:20px 0 20px 15px;
+    font-size:14px;
+    font-weight:700;
+    color:#1d226e!important;
+    position:relative;
+    background:0 0
+}
+#footerMobile .panel-default>.panel-heading a:after{
+    content:'';
+    display:block;
+    width:32px;
+    height:32px;
+    position:absolute;
+    top:10px;
+    right:15px;
+    overflow:hidden;
+    background:url(../img/icon-mapsite-footer.png) bottom left no-repeat
+}
+#footerMobile .panel-default>.panel-heading a.collapsed:after{
+    background:url(../img/icon-mapsite-footer.png) top left no-repeat
+}
+#footerMobile .panel-group .panel{
+    border-radius:0;
+    border:none;
+    background-color:transparent;
+    box-shadow:none;
+    border-bottom:solid 1px #cdcdcd
+}
+#footerMobile .panel-group .panel-heading{
+    padding:0
+}
+#footerMobile .panel-group .panel-heading+.panel-collapse>.panel-body{
+    border-top:none;
+    padding-top:0
+}
+#footerMobile #copyright{
+    color:#8b9296;
+    font-size:11px;
+    padding-left:15px;
+    margin-bottom:10px
+}
+#footerMobile #copyright img{
+    margin-top:20px;
+    margin-bottom:20px
+}
+.modal{
+    text-align:center;
+    border-radius:0
+}
+.modal#dynamic-modal .modal-body{
+    padding:0;
+    height:1010px
+}
+@media (min-width:768px){
+    .modal#dynamic-modal .modal-body{
+        height:850px
+    }
+}
+@media (min-width:992px){
+    .modal#dynamic-modal .modal-body{
+        height:800px
+    }
+}
+@media (min-width:1200px){
+    .modal#dynamic-modal .modal-body{
+        height:710px
+    }
+}
+.modal#dynamic-modal .modal-body iframe{
+    border:none;
+    height:100%
+}
+.modal-content{
+    border-radius:0
+}
+.modal-header{
+    border-radius:0;
+    border:none;
+    height:80px
+}
+.modal-header .close{
+    width:52px;
+    height:52px;
+    opacity:1;
+    filter:alpha(opacity=100)
+}
+#loaderModal{
+    text-align:center;
+    padding:0!important
+}
+#loaderModal:before{
+    content:'';
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+    margin-right:-4px
+}
+#loaderModal .modal-content{
+    background-color:transparent;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    border:none
+}
+#loaderModal .modal-body img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto
+}
+#loaderModal .modal-dialog{
+    display:inline-block;
+    text-align:left;
+    vertical-align:middle
+}
+#homeModal .modal-dialog{
+    width:298px;
+    height:460px;
+    background:url(../img/bg-modal-oferta-ifoode-mobile.jpg?version=1521643145739) center no-repeat;
+    margin-top:30px
+}
+@media (min-width:768px){
+    #homeModal .modal-dialog{
+        background:url(../img/bg-modal-oferta-ifoode.jpg?version=1521643145740) center no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        width:700px;
+        height:412px;
+        margin-top:150px
+    }
+}
+@media (min-width:992px){
+    #homeModal .modal-dialog{
+        width:800px;
+        height:470px
+    }
+}
+#homeModal .modal-content{
+    background-color:transparent;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    border:none
+}
+#homeModal .modal-content .modal-body{
+    padding:15px
+}
+@media (min-width:768px){
+    #homeModal .modal-content .modal-body{
+        padding:25px
+    }
+}
+@media (min-width:992px){
+    #homeModal .modal-content .modal-body{
+        padding:30px
+    }
+}
+#homeModal .modal-content .modal-body .close{
+    width:25px;
+    height:25px;
+    background:url(../img/btn-close-modal-branco.png) center no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    opacity:1;
+    filter:alpha(opacity=100);
+    margin-top:-5px;
+    margin-right:-5px
+}
+@media (min-width:768px){
+    #homeModal .modal-content .modal-body .close{
+        width:50px;
+        height:50px;
+        margin-top:-20px;
+        margin-right:-20px
+    }
+}
+#homeModal .modal-content .modal-body h2{
+    color:#1d226e;
+    font-size:19px;
+    line-height:1.2;
+    margin-top:250px;
+    text-align:center
+}
+@media (max-width:767px){
+    #homeModal .modal-content .modal-body h2{
+        font-family:Myriad-Light,Arial,sans-serif;
+        font-weight:400;
+        letter-spacing:-1px
+    }
+    #homeModal .modal-content .modal-body h2 strong{
+        font-family:Myriad,Arial,sans-serif;
+        font-weight:600
+    }
+    #homeModal .modal-content .modal-body h2 em{
+        font-family:Myriad,Arial,sans-serif;
+        font-weight:400
+    }
+}
+@media (min-width:768px){
+    #homeModal .modal-content .modal-body h2{
+        font-size:22px;
+        line-height:1.2;
+        margin-top:260px;
+        margin-bottom:10px;
+        text-align:left
+    }
+}
+@media (min-width:992px){
+    #homeModal .modal-content .modal-body h2{
+        font-size:25px;
+        line-height:1.2;
+        margin-top:300px;
+        margin-bottom:10px;
+        text-align:left
+    }
+}
+#homeModal .modal-content .modal-body p{
+    color:#1d226e;
+    font-size:15px;
+    line-height:1.2;
+    letter-spacing:-1px;
+    text-align:center
+}
+@media (max-width:767px){
+    #homeModal .modal-content .modal-body p{
+        padding-left:20px;
+        padding-right:20px
+    }
+    #homeModal .modal-content .modal-body p br{
+        display:none
+    }
+}
+@media (min-width:768px){
+    #homeModal .modal-content .modal-body p{
+        font-family:Myriad-Light,Arial,sans-serif;
+        font-weight:400;
+        font-size:19px;
+        line-height:1.2;
+        text-align:left;
+        float:left!important
+    }
+    #homeModal .modal-content .modal-body p strong{
+        font-family:Myriad,Arial,sans-serif;
+        font-weight:600
+    }
+    #homeModal .modal-content .modal-body p em{
+        font-family:Myriad,Arial,sans-serif;
+        font-weight:400
+    }
+}
+@media (min-width:992px){
+    #homeModal .modal-content .modal-body p{
+        font-size:20px;
+        line-height:1.2;
+        letter-spacing:-1px;
+        text-align:left;
+        float:left!important
+    }
+}
+#homeModal .modal-content .modal-body #btn-modal-cadastro{
+    color:#fff;
+    background-color:#0c41a5;
+    border-color:#0c41a5;
+    font-size:15px;
+    line-height:16px;
+    padding:16px 12px;
+    width:260px;
+    margin-top:5px
+}
+#homeModal .modal-content .modal-body #btn-modal-cadastro.focus,#homeModal .modal-content .modal-body #btn-modal-cadastro:focus{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#03122e
+}
+#homeModal .modal-content .modal-body #btn-modal-cadastro.active,#homeModal .modal-content .modal-body #btn-modal-cadastro:active,#homeModal .modal-content .modal-body #btn-modal-cadastro:hover,.open>.dropdown-toggle#homeModal .modal-content .modal-body #btn-modal-cadastro{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#082b6c
+}
+#homeModal .modal-content .modal-body #btn-modal-cadastro.active.focus,#homeModal .modal-content .modal-body #btn-modal-cadastro.active:focus,#homeModal .modal-content .modal-body #btn-modal-cadastro.active:hover,#homeModal .modal-content .modal-body #btn-modal-cadastro:active.focus,#homeModal .modal-content .modal-body #btn-modal-cadastro:active:focus,#homeModal .modal-content .modal-body #btn-modal-cadastro:active:hover,.open>.dropdown-toggle#homeModal .modal-content .modal-body #btn-modal-cadastro.focus,.open>.dropdown-toggle#homeModal .modal-content .modal-body #btn-modal-cadastro:focus,.open>.dropdown-toggle#homeModal .modal-content .modal-body #btn-modal-cadastro:hover{
+    color:#fff;
+    background-color:#062154;
+    border-color:#03122e
+}
+#homeModal .modal-content .modal-body #btn-modal-cadastro.active,#homeModal .modal-content .modal-body #btn-modal-cadastro:active,.open>.dropdown-toggle#homeModal .modal-content .modal-body #btn-modal-cadastro{
+    background-image:none
+}
+#homeModal .modal-content .modal-body #btn-modal-cadastro.disabled,#homeModal .modal-content .modal-body #btn-modal-cadastro.disabled.active,#homeModal .modal-content .modal-body #btn-modal-cadastro.disabled.focus,#homeModal .modal-content .modal-body #btn-modal-cadastro.disabled:active,#homeModal .modal-content .modal-body #btn-modal-cadastro.disabled:focus,#homeModal .modal-content .modal-body #btn-modal-cadastro.disabled:hover,#homeModal .modal-content .modal-body #btn-modal-cadastro[disabled],#homeModal .modal-content .modal-body #btn-modal-cadastro[disabled].active,#homeModal .modal-content .modal-body #btn-modal-cadastro[disabled].focus,#homeModal .modal-content .modal-body #btn-modal-cadastro[disabled]:active,#homeModal .modal-content .modal-body #btn-modal-cadastro[disabled]:focus,#homeModal .modal-content .modal-body #btn-modal-cadastro[disabled]:hover,fieldset[disabled] #homeModal .modal-content .modal-body #btn-modal-cadastro,fieldset[disabled] #homeModal .modal-content .modal-body #btn-modal-cadastro.active,fieldset[disabled] #homeModal .modal-content .modal-body #btn-modal-cadastro.focus,fieldset[disabled] #homeModal .modal-content .modal-body #btn-modal-cadastro:active,fieldset[disabled] #homeModal .modal-content .modal-body #btn-modal-cadastro:focus,fieldset[disabled] #homeModal .modal-content .modal-body #btn-modal-cadastro:hover{
+    background-color:#0c41a5;
+    border-color:#0c41a5
+}
+#homeModal .modal-content .modal-body #btn-modal-cadastro .badge{
+    color:#0c41a5;
+    background-color:#fff
+}
+@media (min-width:768px){
+    #homeModal .modal-content .modal-body #btn-modal-cadastro{
+        float:right!important;
+        width:200px
+    }
+}
+@media (min-width:992px){
+    #homeModal .modal-content .modal-body #btn-modal-cadastro{
+        float:right!important;
+        width:225px;
+        margin-top:0
+    }
+}
+#homeModal~.modal-backdrop.fade.in{
+    opacity:.65;
+    background-color:#000
+}
+#promocaoIrmaModal .modal-dialog{
+    background:#fedb00;
+    width:300px;
+    height:515px;
+    margin-top:30px
+}
+@media (min-width:768px){
+    #promocaoIrmaModal .modal-dialog{
+        width:700px;
+        height:412px;
+        margin-top:150px
+    }
+}
+@media (min-width:992px){
+    #promocaoIrmaModal .modal-dialog{
+        width:800px;
+        height:470px
+    }
+}
+#promocaoIrmaModal .modal-content{
+    background-color:transparent;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    border:none
+}
+#promocaoIrmaModal .modal-content .modal-header{
+    background:#0030a4;
+    padding-left:20px;
+    text-align:left
+}
+#promocaoIrmaModal .modal-content .modal-header#header100{
+    background:#000
+}
+#promocaoIrmaModal .modal-content .modal-header .close{
+    width:25px;
+    height:25px;
+    background:url(../img/btn-close-modal-branco.png) center no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    opacity:1;
+    filter:alpha(opacity=100)
+}
+@media (min-width:768px){
+    #promocaoIrmaModal .modal-content .modal-header .close{
+        width:50px;
+        height:50px
+    }
+}
+@media (min-width:768px){
+    #promocaoIrmaModal .modal-content .modal-body{
+        padding:40px
+    }
+}
+#promocaoIrmaModal .modal-content .modal-body h2{
+    text-shadow:2px 3px 8px rgba(0,0,0,.5);
+    font-weight:700;
+    color:#0030a4;
+    font-size:20px;
+    line-height:20px;
+    text-align:center
+}
+@media (min-width:768px){
+    #promocaoIrmaModal .modal-content .modal-body h2{
+        font-size:26px;
+        line-height:30px;
+        margin-bottom:15px;
+        text-align:left
+    }
+}
+#promocaoIrmaModal .modal-content .modal-body p{
+    text-shadow:2px 3px 8px rgba(0,0,0,.5);
+    color:#0030a4;
+    font-size:15px;
+    line-height:16px;
+    text-align:center
+}
+#promocaoIrmaModal .modal-content .modal-body p br{
+    display:none
+}
+@media (min-width:768px){
+    #promocaoIrmaModal .modal-content .modal-body p{
+        font-size:22px;
+        line-height:26px;
+        text-align:left
+    }
+}
+@media (min-width:1200px){
+    #promocaoIrmaModal .modal-content .modal-body p br{
+        display:block
+    }
+}
+#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro{
+    color:#fff;
+    background-color:#0c41a5;
+    border-color:#0c41a5;
+    font-size:15px;
+    line-height:16px;
+    padding:16px 12px;
+    width:260px;
+    margin-top:15px
+}
+#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.focus,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:focus{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#03122e
+}
+#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.active,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:active,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:hover,.open>.dropdown-toggle#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#082b6c
+}
+#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.active.focus,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.active:focus,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.active:hover,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:active.focus,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:active:focus,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:active:hover,.open>.dropdown-toggle#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.focus,.open>.dropdown-toggle#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:focus,.open>.dropdown-toggle#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:hover{
+    color:#fff;
+    background-color:#062154;
+    border-color:#03122e
+}
+#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.active,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:active,.open>.dropdown-toggle#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro{
+    background-image:none
+}
+#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.disabled,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.disabled.active,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.disabled.focus,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.disabled:active,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.disabled:focus,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.disabled:hover,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro[disabled],#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro[disabled].active,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro[disabled].focus,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro[disabled]:active,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro[disabled]:focus,#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro[disabled]:hover,fieldset[disabled] #promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro,fieldset[disabled] #promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.active,fieldset[disabled] #promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro.focus,fieldset[disabled] #promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:active,fieldset[disabled] #promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:focus,fieldset[disabled] #promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro:hover{
+    background-color:#0c41a5;
+    border-color:#0c41a5
+}
+#promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro .badge{
+    color:#0c41a5;
+    background-color:#fff
+}
+@media (min-width:768px){
+    #promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro{
+        width:285px;
+        margin-top:10px
+    }
+}
+@media (min-width:1200px){
+    #promocaoIrmaModal .modal-content .modal-body #btn-modal-cadastro{
+        margin-top:35px
+    }
+}
+#promocaoIrmaModal~.modal-backdrop.fade.in{
+    opacity:.65;
+    background-color:#000
+}
+.netshoes-promocao-irma-modal .modal-dialog{
+    background:#142683;
+    width:300px;
+    height:515px;
+    margin-top:30px
+}
+@media (min-width:768px){
+    .netshoes-promocao-irma-modal .modal-dialog{
+        width:700px;
+        height:412px;
+        margin-top:150px
+    }
+}
+@media (min-width:992px){
+    .netshoes-promocao-irma-modal .modal-dialog{
+        width:800px;
+        height:470px
+    }
+}
+.netshoes-promocao-irma-modal .modal-content{
+    background-color:transparent;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    border:none
+}
+.netshoes-promocao-irma-modal .modal-content .modal-header{
+    background:#0030a4;
+    padding-left:20px;
+    text-align:left
+}
+.netshoes-promocao-irma-modal .modal-content .modal-header#header100{
+    background:#142683
+}
+.netshoes-promocao-irma-modal .modal-content .modal-header .close{
+    width:25px;
+    height:25px;
+    background:url(../img/btn-close-modal-branco.png) center no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    opacity:1;
+    filter:alpha(opacity=100)
+}
+@media (min-width:768px){
+    .netshoes-promocao-irma-modal .modal-content .modal-header .close{
+        width:50px;
+        height:50px
+    }
+}
+@media (min-width:768px){
+    .netshoes-promocao-irma-modal .modal-content .modal-body{
+        padding:40px
+    }
+}
+.netshoes-promocao-irma-modal .modal-content .modal-body h2{
+    text-shadow:2px 3px 8px rgba(0,0,0,.5);
+    font-weight:700;
+    color:#fff;
+    font-size:20px;
+    line-height:20px;
+    text-align:center
+}
+@media (min-width:768px){
+    .netshoes-promocao-irma-modal .modal-content .modal-body h2{
+        font-size:26px;
+        line-height:30px;
+        margin-bottom:15px;
+        text-align:left
+    }
+}
+.netshoes-promocao-irma-modal .modal-content .modal-body p{
+    text-shadow:2px 3px 8px rgba(0,0,0,.5);
+    color:#fff;
+    font-size:15px;
+    line-height:16px;
+    text-align:center
+}
+.netshoes-promocao-irma-modal .modal-content .modal-body p br{
+    display:none
+}
+@media (min-width:768px){
+    .netshoes-promocao-irma-modal .modal-content .modal-body p{
+        font-size:22px;
+        line-height:26px;
+        text-align:left
+    }
+}
+@media (min-width:1200px){
+    .netshoes-promocao-irma-modal .modal-content .modal-body p br{
+        display:block
+    }
+}
+.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro{
+    color:#fff;
+    background-color:#0c41a5;
+    border-color:#0c41a5;
+    font-size:15px;
+    line-height:16px;
+    padding:16px 12px;
+    width:260px;
+    margin-top:15px
+}
+.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.focus,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:focus{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#03122e
+}
+.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.active,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:active,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:hover,.open>.dropdown-toggle.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#082b6c
+}
+.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.active.focus,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.active:focus,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.active:hover,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:active.focus,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:active:focus,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:active:hover,.open>.dropdown-toggle.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.focus,.open>.dropdown-toggle.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:focus,.open>.dropdown-toggle.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:hover{
+    color:#fff;
+    background-color:#062154;
+    border-color:#03122e
+}
+.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.active,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:active,.open>.dropdown-toggle.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro{
+    background-image:none
+}
+.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.disabled,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.disabled.active,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.disabled.focus,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.disabled:active,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.disabled:focus,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.disabled:hover,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro[disabled],.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro[disabled].active,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro[disabled].focus,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro[disabled]:active,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro[disabled]:focus,.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro[disabled]:hover,fieldset[disabled] .netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro,fieldset[disabled] .netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.active,fieldset[disabled] .netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro.focus,fieldset[disabled] .netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:active,fieldset[disabled] .netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:focus,fieldset[disabled] .netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro:hover{
+    background-color:#0c41a5;
+    border-color:#0c41a5
+}
+.netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro .badge{
+    color:#0c41a5;
+    background-color:#fff
+}
+@media (min-width:768px){
+    .netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro{
+        width:285px;
+        margin-top:10px
+    }
+}
+@media (min-width:1200px){
+    .netshoes-promocao-irma-modal .modal-content .modal-body #btn-modal-cadastro{
+        margin-top:35px
+    }
+}
+.netshoes-promocao-irma-modal~.modal-backdrop.fade.in{
+    opacity:.65;
+    background-color:#000
+}
+#sectionModal .modal-body{
+    padding:20px 20px 110px
+}
+#sectionModal .modal-body .close{
+    opacity:1;
+    filter:alpha(opacity=100)
+}
+#sectionModal .modal-body h2{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    color:#1d226e;
+    font-size:50px;
+    margin-top:75px;
+    margin-bottom:30px
+}
+#sectionModal .modal-body h2 strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#sectionModal .modal-body h2 em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+#sectionModal .modal-body p{
+    font-family:Myriad-Light,Arial,sans-serif;
+    font-weight:400;
+    color:#696f73;
+    font-size:25px;
+    margin-bottom:35px
+}
+#sectionModal .modal-body p strong{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:600
+}
+#sectionModal .modal-body p em{
+    font-family:Myriad,Arial,sans-serif;
+    font-weight:400
+}
+#sectionModal .modal-body #btn-sim{
+    color:#fff;
+    background-color:#0c41a5;
+    border-color:#0c41a5
+}
+#sectionModal .modal-body #btn-sim.focus,#sectionModal .modal-body #btn-sim:focus{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#03122e
+}
+#sectionModal .modal-body #btn-sim.active,#sectionModal .modal-body #btn-sim:active,#sectionModal .modal-body #btn-sim:hover,.open>.dropdown-toggle#sectionModal .modal-body #btn-sim{
+    color:#fff;
+    background-color:#092e75;
+    border-color:#082b6c
+}
+#sectionModal .modal-body #btn-sim.active.focus,#sectionModal .modal-body #btn-sim.active:focus,#sectionModal .modal-body #btn-sim.active:hover,#sectionModal .modal-body #btn-sim:active.focus,#sectionModal .modal-body #btn-sim:active:focus,#sectionModal .modal-body #btn-sim:active:hover,.open>.dropdown-toggle#sectionModal .modal-body #btn-sim.focus,.open>.dropdown-toggle#sectionModal .modal-body #btn-sim:focus,.open>.dropdown-toggle#sectionModal .modal-body #btn-sim:hover{
+    color:#fff;
+    background-color:#062154;
+    border-color:#03122e
+}
+#sectionModal .modal-body #btn-sim.active,#sectionModal .modal-body #btn-sim:active,.open>.dropdown-toggle#sectionModal .modal-body #btn-sim{
+    background-image:none
+}
+#sectionModal .modal-body #btn-sim.disabled,#sectionModal .modal-body #btn-sim.disabled.active,#sectionModal .modal-body #btn-sim.disabled.focus,#sectionModal .modal-body #btn-sim.disabled:active,#sectionModal .modal-body #btn-sim.disabled:focus,#sectionModal .modal-body #btn-sim.disabled:hover,#sectionModal .modal-body #btn-sim[disabled],#sectionModal .modal-body #btn-sim[disabled].active,#sectionModal .modal-body #btn-sim[disabled].focus,#sectionModal .modal-body #btn-sim[disabled]:active,#sectionModal .modal-body #btn-sim[disabled]:focus,#sectionModal .modal-body #btn-sim[disabled]:hover,fieldset[disabled] #sectionModal .modal-body #btn-sim,fieldset[disabled] #sectionModal .modal-body #btn-sim.active,fieldset[disabled] #sectionModal .modal-body #btn-sim.focus,fieldset[disabled] #sectionModal .modal-body #btn-sim:active,fieldset[disabled] #sectionModal .modal-body #btn-sim:focus,fieldset[disabled] #sectionModal .modal-body #btn-sim:hover{
+    background-color:#0c41a5;
+    border-color:#0c41a5
+}
+#sectionModal .modal-body #btn-sim .badge{
+    color:#0c41a5;
+    background-color:#fff
+}
+#sectionModal .modal-body #btn-nao{
+    color:#0c41a5;
+    background-color:#fff;
+    border-color:#0c41a5
+}
+#sectionModal .modal-body #btn-nao.focus,#sectionModal .modal-body #btn-nao:focus{
+    color:#0c41a5;
+    background-color:#e6e6e6;
+    border-color:#03122e
+}
+#sectionModal .modal-body #btn-nao.active,#sectionModal .modal-body #btn-nao:active,#sectionModal .modal-body #btn-nao:hover,.open>.dropdown-toggle#sectionModal .modal-body #btn-nao{
+    color:#0c41a5;
+    background-color:#e6e6e6;
+    border-color:#082b6c
+}
+#sectionModal .modal-body #btn-nao.active.focus,#sectionModal .modal-body #btn-nao.active:focus,#sectionModal .modal-body #btn-nao.active:hover,#sectionModal .modal-body #btn-nao:active.focus,#sectionModal .modal-body #btn-nao:active:focus,#sectionModal .modal-body #btn-nao:active:hover,.open>.dropdown-toggle#sectionModal .modal-body #btn-nao.focus,.open>.dropdown-toggle#sectionModal .modal-body #btn-nao:focus,.open>.dropdown-toggle#sectionModal .modal-body #btn-nao:hover{
+    color:#0c41a5;
+    background-color:#d4d4d4;
+    border-color:#03122e
+}
+#sectionModal .modal-body #btn-nao.active,#sectionModal .modal-body #btn-nao:active,.open>.dropdown-toggle#sectionModal .modal-body #btn-nao{
+    background-image:none
+}
+#sectionModal .modal-body #btn-nao.disabled,#sectionModal .modal-body #btn-nao.disabled.active,#sectionModal .modal-body #btn-nao.disabled.focus,#sectionModal .modal-body #btn-nao.disabled:active,#sectionModal .modal-body #btn-nao.disabled:focus,#sectionModal .modal-body #btn-nao.disabled:hover,#sectionModal .modal-body #btn-nao[disabled],#sectionModal .modal-body #btn-nao[disabled].active,#sectionModal .modal-body #btn-nao[disabled].focus,#sectionModal .modal-body #btn-nao[disabled]:active,#sectionModal .modal-body #btn-nao[disabled]:focus,#sectionModal .modal-body #btn-nao[disabled]:hover,fieldset[disabled] #sectionModal .modal-body #btn-nao,fieldset[disabled] #sectionModal .modal-body #btn-nao.active,fieldset[disabled] #sectionModal .modal-body #btn-nao.focus,fieldset[disabled] #sectionModal .modal-body #btn-nao:active,fieldset[disabled] #sectionModal .modal-body #btn-nao:focus,fieldset[disabled] #sectionModal .modal-body #btn-nao:hover{
+    background-color:#fff;
+    border-color:#0c41a5
+}
+#sectionModal .modal-body #btn-nao .badge{
+    color:#fff;
+    background-color:#0c41a5
+}
+#sectionModal .modal-body #btn-nao,#sectionModal .modal-body #btn-sim{
+    font-size:15px;
+    width:150px;
+    height:50px;
+    border-width:2px;
+    margin:0 5px
+}
+@media (min-width:992px){
+    #sectionModal .modal-dialog{
+        width:800px
+    }
+}
+.link-novo,.link-novo:hover{
+    color:#fff
+}
+
+main#conteudoModal {
+    padding: 20px;
+}
+
+.group{ 
+  position:relative; 
+  margin-bottom:17px; 
+  color:#fff;
+  top:0px;
+  width: 100%;
+}
+
+.group input[type="tel"], input[type="text"]{
+  font-size:16px;
+  font-weight: bold;
+  padding:13px 5px 0px 2px;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:1px solid #494949;
+  color: #494949;
+  background:none;
+
+}
+.group input[type="submit"]{
+    width: 100%;
+    border: solid 1px #003ea9;
+    color: #fff;
+    background-color: #003ea9;
+    font-size: .875rem;
+    font-weight: 400;
+    min-height: 44px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+.group input:focus{ outline:none; color:#494949; border: none; }
+
+.group input[type="submit"]:focus{
+  border: solid 1px;
+}
+
+.group label{
+  color:#494949; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:0px;
+  top:5px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+.group input:focus ~ label, input:valid ~ label{
+  top:-5px;
+  font-size:12px;
+  color: #0c4da9;
+}
+
+.bar  { position:relative; display:block; width:100%; }
+.bar:before, .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#0c4da9; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+  color:#0c4da9;
+}
+.bar:before {
+  left:50%;
+  color:#0c4da9;
+}
+.bar:after {
+  right:50%; 
+  color:#0c4da9;
+}
+
+.group input:focus ~ .bar:before, .group input:focus ~ .bar:after {
+  color:#0c4da9; 
+  width:50%;
+}
+
+.highlight {
+  position:absolute;
+  height:0%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  color:#494949;
+}
+
+.group input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+  color:#494949;
+}
+
+@-webkit-keyframes inputHighlighter {
+  from { background:rgba(51,51,51, 0.7); }
+  to  { width:0; background:transparent; color:#494949;}
+  
+}
+@-moz-keyframes inputHighlighter {
+  from { background:rgba(51,51,51, 0.7); color:#494949;}
+  to  { width:0; background:transparent; }
+  
+}
+@keyframes inputHighlighter {
+  from { background:rgba(51,51,51, 0.7); color:#494949;}
+  to  { width:0; background:transparent; }
+  
+}
+
+h3.tituloModal {
+    color: #15195a;
+    float: left;
+}
+.infoModal{
+    color: #15195a;   
+    float: left;
+    font-size: 11px;
+    padding-bottom: 15px;

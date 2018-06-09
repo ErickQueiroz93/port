@@ -1,0 +1,90 @@
+body{
+    font-family: Arial,sans-serif;
+}
+/*index*/
+#index{
+    background: rgba(230, 136, 40, 1.8);    
+}
+#index #logo{
+    margin-top: 50%;
+}
+/*Fim index*/
+
+
+/*multi*/
+.tela-grande {
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+}
+#logo {
+    text-align: center;
+    margin-top: 17%;
+}
+#multi {
+    background: rgba(230, 136, 40, 1.8);
+}
+.conteudo-multi{
+    display: none;
+}
+/*Fim multi*/
+
+@media (max-width: 600px){
+
+    /*chamada*/
+    .conteudo-multi{
+        display: block;
+        background: rgba(0,73,142,0.7);
+        text-align: center;
+        border-radius: 0 40px 40px 0;
+        width: 85%;
+        height: 300px;
+        margin-left: 6%;
+        margin-top: 43%;
+        padding-top: 10%;
+
+    }
+    .conteudo-multi h3{
+        font-size: 26px;
+        color: #fff;
+        margin-top: 2%;
+    }
+    .conteudo-multi img{
+        width: 220px;
+        margin-bottom: 10%;
+    }
+    #multi #logo {
+        /*text-align: right;
+        margin-right: 8%;*/
+        display: none;
+    }
+    .tela-grande {
+        display: none;
+    }
+    .conteudo {
+        display: block;
+        width: 100%;
+        padding-left: 10%;
+    }
+    #multi {
+        background: transparent;
+        background-image: url('../img/unificacao.png ');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    /*Fim chamada*/
+
+    @media (max-width: 280px){
+        .conteudo-multi h3{
+            font-size: 15px;
+        }
+        .conteudo-multi{
+            height: 200px;
+        }
+        .conteudo-multi img {
+            width: 136px;
+        }
+    }
+}
+
+

